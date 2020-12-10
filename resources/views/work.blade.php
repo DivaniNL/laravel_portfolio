@@ -1,10 +1,10 @@
 @extends('layout')
 
 
-@section('title', 'Home')
+@section('title', 'Work')
 
 @section('content')
 
-   <h1>Hello world!!!</h1>
+   <h1>Work</h1>
 
 @endsection

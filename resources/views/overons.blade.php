@@ -1,10 +1,10 @@
 @extends('layout')
 
 
-@section('title', 'Home')
+@section('title', 'Overons')
 
 @section('content')
 
-   <h1>Hello world!!!</h1>
+   <h1>Over Ons</h1>
 
 @endsection
