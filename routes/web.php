@@ -21,9 +21,7 @@ Route::get('/home', function () {
     return view('home');
 });
 Route::get('/contact', 'App\Http\Controllers\ContactController@index');
-
 Route::post('/contact/send', 'App\Http\Controllers\ContactController@ContactRequest');
-
 Route::get('/about', function () {
     return view('about');
 });
@@ -33,3 +31,4 @@ Route::get('/work', function () {
 Route::get('/overons', function () {
     return view('overons');
 });
+Route::resource('werken', 'App\Http\Controllers\WerkController');
