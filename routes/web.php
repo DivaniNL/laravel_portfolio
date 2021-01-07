@@ -21,14 +21,15 @@ Route::get('/home', function () {
     return view('home');
 });
 Route::get('/contact', 'App\Http\Controllers\ContactController@index');
-Route::post('/contact/send', 'App\Http\Controllers\ContactController@ContactRequest');
+Route::post('/contact/{name?}', 'App\Http\Controllers\ContactController@ContactRequest');
 Route::get('/about', function () {
     return view('about');
-});
-Route::get('/work', function () {
-    return view('work');
 });
 Route::get('/overons', function () {
     return view('overons');
 });
+Route::get('werken/test', function () {
+    return view('werken.test');
+});
 Route::resource('werken', 'App\Http\Controllers\WerkController');
+Route::resource('/work', 'App\Http\Controllers\TestController');
