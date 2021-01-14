@@ -1,14 +1,10 @@
 <?php
-use Illuminate\Support\Facades\Input;
+
 namespace App\Http\Controllers;
-use Validator, Redirect, Response;
 use App\Models\Werk;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Hash;
-use Session;
 
-class TestController extends Controller
+class DashController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,10 +13,9 @@ class TestController extends Controller
      */
     public function index()
     {
+
         $werken = Werk::all();
         return view('dashboard', compact('werken'));
-        
-
     }
     
     /**
@@ -53,9 +48,8 @@ class TestController extends Controller
             'title'=> $request->get('title'), 
             'blog'=> $request->get('blog'),
             'url'=> $request->get('url'),
-            'file'=> $request->file('file')->getClientOriginalName(),
+            'file'=> $request->get('file'),
         ]);
-        $request->file->storeAs('images', $request->file->getClientOriginalName());
         $werk->save();
         return redirect('/werken')->with('success', 'Werk opgeslagen!');
     }
@@ -102,12 +96,10 @@ class TestController extends Controller
         $werk = Werk::find($id);
         $werk->title = $request->get('title'); 
         $werk->blog = $request->get('blog'); 
-        $werk->file = $request->get('file'); 
-        $werk->url = $request->get('url');
-
-        
+        $werk->url = $request->get('url'); 
+        $werk->url = $request->get('file'); 
         $werk->save();
-        return redirect('/werken.addimage')->with('success', 'Werk updated!'); }
+        return redirect('/werken')->with('success', 'Werk updated!'); }
         }
         
 

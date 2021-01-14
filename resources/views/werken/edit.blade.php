@@ -25,6 +25,10 @@
                     <label for="blog">Blog</label>
                     <input type="text" class="form-control" name="blog"/>
                 </div>
+                <div class="form-group">
+                    <label for="url">Url</label>
+                    <input type="text" class="form-control" name="url"/>
+                </div>
                 <button type="submit" class="btn btn-secondary">Toevoegen</button> 
             </form>
         </div>

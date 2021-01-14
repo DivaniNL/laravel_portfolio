@@ -1,9 +1,12 @@
 <?php
-
+use Illuminate\Support\Facades\Input;
 namespace App\Http\Controllers;
-
+use Validator, Redirect, Response;
 use App\Models\Werk;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Session;
 
 class WerkController extends Controller
 {
@@ -16,7 +19,11 @@ class WerkController extends Controller
     {
 
         $werken = Werk::all();
-        return view('werken.index', compact('werken'));
+        if(Auth::check()){
+            return view('werken.index', compact('werken'));
+        }
+        return Redirect::to("login")->withSuccess('Oops! You have entered invalid credentials');
+
     }
     
     /**
@@ -41,14 +48,19 @@ class WerkController extends Controller
         $request->validate([ 
             'title'=>'required', 
             'blog'=>'required',
+            'url'=>'required',
+            'file'=>'required',
         ]);
 
         $werk = new Werk([
             'title'=> $request->get('title'), 
             'blog'=> $request->get('blog'),
+            'url'=> $request->get('url'),
+            'file'=> $request->file('file')->getClientOriginalName(),
         ]);
+        $request->file->storeAs('images', $request->file->getClientOriginalName());
         $werk->save();
-        return redirect('/werken')->with('succesvol', 'Werk opgeslagen!');
+        return redirect('/werken')->with('success', 'Werk opgeslagen!');
     }
 
     /**
@@ -86,13 +98,19 @@ class WerkController extends Controller
         $request->validate([
             'title'=>'required',
             'blog'=>'required', 
+            'url'=>'required', 
+            'file'=>'required', 
         ]);
 
         $werk = Werk::find($id);
         $werk->title = $request->get('title'); 
         $werk->blog = $request->get('blog'); 
+        $werk->file = $request->get('file'); 
+        $werk->url = $request->get('url');
+
+        
         $werk->save();
-        return redirect('/werken')->with('success', 'Werk updated!'); }
+        return redirect('/werken.addimage')->with('success', 'Werk updated!'); }
         }
         
 

@@ -10903,3 +10903,43 @@ a.text-dark:focus {
   }
 }
 
+.image_project {
+  width: 10px;
+  height: 10px;
+}
+
+.project_images {
+  width: 100%;
+}
+
+.project_images li {
+  width: 100%;
+  list-style-type: none;
+  background-color: beige;
+  border: 1px solid brown;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.project_images li .image_project {
+  width: 25%;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.project_images li .image_project a {
+  font-size: 24px;
+  text-align: center;
+}
+
+.signup-form {
+  min-width: 200px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
