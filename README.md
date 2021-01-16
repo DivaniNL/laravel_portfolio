@@ -1,3 +1,12 @@
+Over Dit Project
+----------------
+Dit project is het portfolio van Dylan van Nierop. 
+Ik heb dit portfolio gemaakt tijdens mijn opleiding tot webdeveloper op het Grafisch Lyceum Utrecht.
+Met dit project kunt u mijn projecten zien die ik voor mijn opleiding heb gemaakt, maar ook projecten die ik buiten schooltijd hebt gemaakt, en die soms voor echte klanten waren.
+
+
+Mijn Planning
+-------------
 kerstvakantie:
 Tutorial awesome tutorials afmaken
 
