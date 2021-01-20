@@ -28,7 +28,7 @@
             <li class='mains'> <a href="#" data-toggle="collapse" data-target="#products" class="collapsed active" > <i class="fa fa-bar-chart-o"></i> <span class="nav-label">Admin-Pages</span> <span class="fa fa-chevron-left pull-right"></span> </a>
             <ul class="sub-menu collapse" id="products">
               <li class="active"><a href="#">Projects</a></li>
-              <li><a href="">Admins</a></li>
+              <li><a href="{{ route('werken.users')}}">Admins</a></li>
               <li><a href="#">Statistics</a></li>
             
             </ul>
@@ -51,19 +51,19 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach($werken as $werk) 
+                @foreach($users as $user) 
                 <tr>
                     <td>{{$werk->id}}</td> 
                     <td>{{$werk->title}}</td> 
                     <td>{{$werk->blog}}</td> 
                     <td>{{$werk->url}}</td> 
                     <td>{{$werk->file}}</td> 
-                    <td><a href="{{ route('werken.edit',$werk->id)}}" class="btn btn-lg btn-warning">Edit</a></td> 
+                    <td><a href="{{ route('werken.edit',$werk->id)}}" class="btn btn-warning">Edit</a></td> 
                     <td>
                         <form action="{{ route('werken.destroy', $werk->id)}}" method="post">
                             @csrf
                             @method('DELETE')
-                            <button class="btn btn-lg btn-danger" type="submit">Delete</button> 
+                            <button class="btn btn-danger" type="submit">Delete</button> 
                         </form>
                     </td> 
                 </tr>

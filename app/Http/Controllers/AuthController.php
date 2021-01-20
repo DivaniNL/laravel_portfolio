@@ -14,6 +14,12 @@ class AuthController extends Controller
     {
         return view('login');
     }
+    public function view()
+    {
+        $users = DB::table('users')->select('id','name','email')->get();
+
+        return view('werken.users')->with('users', $users);
+    }
 
     public function registration()
     {

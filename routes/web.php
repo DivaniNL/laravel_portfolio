@@ -20,6 +20,15 @@ Route::post('/contact/{name?}', 'App\Http\Controllers\ContactController@ContactR
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+Route::get('/home', function () {
+    return view('home');
+});
+Route::get('/home2', function () {
+    return view('home2');
+});
 Route::get('/overons', function () {
     return view('overons');
 });
@@ -27,11 +36,15 @@ Route::get('/overons', function () {
 Route::get('werken/test', function () {
     return view('werken.test');
 });
+Route::get('/werken/users', function () {
+    return view('werken/users');
+ });
 Route::resource('werken', 'App\Http\Controllers\WerkController');
+
 Route::resource('dashboard', 'App\Http\Controllers\TestController');
 
 Route::get('/', function () {
-    return redirect('dashboard');
+    return redirect('home');
 });
 
 Route::get('/registration', function () {
