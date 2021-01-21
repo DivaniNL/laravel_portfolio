@@ -49,7 +49,7 @@
                 <div class="form-group">
                     <div class="input-group">
                         <span class="input-group-addon"><i class="fas fa-pen"></i></span>
-                        <input type="text" placeholder = "Blog" class="form-control" name="blog"/> 
+                        <input type="text" placeholder = "description" class="form-control" name="description"/> 
                     </div>
                 </div>  
                 <div class="form-group">

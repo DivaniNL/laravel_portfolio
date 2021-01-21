@@ -47,8 +47,8 @@
                     <input type="text" class="form-control" value= "{{$werk->title}}" name="title"/> 
                 </div>
                 <div class="form-group">
-                    <label for="blog">Blog</label>
-                    <input type="text" class="form-control" value= "{{$werk->blog}}" name="blog"/>
+                    <label for="description">description</label>
+                    <input type="text" class="form-control" value= "{{$werk->description}}" name="description"/>
                 </div>
                 <div class="form-group">
                     <label for="url">Url</label>

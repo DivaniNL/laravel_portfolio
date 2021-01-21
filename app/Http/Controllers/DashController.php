@@ -39,14 +39,14 @@ class DashController extends Controller
         //
         $request->validate([ 
             'title'=>'required', 
-            'blog'=>'required',
+            'description'=>'required',
             'url'=>'required',
             'file'=>'required',
         ]);
 
         $werk = new Werk([
             'title'=> $request->get('title'), 
-            'blog'=> $request->get('blog'),
+            'description'=> $request->get('description'),
             'url'=> $request->get('url'),
             'file'=> $request->get('file'),
         ]);
@@ -88,14 +88,14 @@ class DashController extends Controller
         {
         $request->validate([
             'title'=>'required',
-            'blog'=>'required', 
+            'description'=>'required', 
             'url'=>'required', 
             'file'=>'required', 
         ]);
 
         $werk = Werk::find($id);
         $werk->title = $request->get('title'); 
-        $werk->blog = $request->get('blog'); 
+        $werk->description = $request->get('description'); 
         $werk->url = $request->get('url'); 
         $werk->url = $request->get('file'); 
         $werk->save();

@@ -44,14 +44,14 @@ class TestController extends Controller
         //
         $request->validate([ 
             'title'=>'required', 
-            'blog'=>'required',
+            'description'=>'required',
             'url'=>'required',
             'file'=>'required',
         ]);
 
         $werk = new Werk([
             'title'=> $request->get('title'), 
-            'blog'=> $request->get('blog'),
+            'description'=> $request->get('description'),
             'url'=> $request->get('url'),
             'file'=> $request->file('file')->getClientOriginalName(),
         ]);
@@ -94,14 +94,14 @@ class TestController extends Controller
         {
         $request->validate([
             'title'=>'required',
-            'blog'=>'required', 
+            'description'=>'required', 
             'url'=>'required', 
             'file'=>'required', 
         ]);
 
         $werk = Werk::find($id);
         $werk->title = $request->get('title'); 
-        $werk->blog = $request->get('blog'); 
+        $werk->description = $request->get('description'); 
         $werk->file = $request->get('file'); 
         $werk->url = $request->get('url');
 

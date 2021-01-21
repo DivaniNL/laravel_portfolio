@@ -46,7 +46,7 @@
                     <input type="text" class="form-control" value= "{{$user->name}}"name="name"/> 
                 </div>
                 <div class="form-group">
-                    <label for="blog">Email</label>
+                    <label for="description">Email</label>
                     <input type="text" class="form-control" value= "{{$user->email}} "name="email"/>
                 </div>
                 <div class="form-group">
