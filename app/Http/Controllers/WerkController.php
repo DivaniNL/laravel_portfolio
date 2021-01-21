@@ -110,7 +110,7 @@ class WerkController extends Controller
 
         
         $werk->save();
-        return redirect('/werken.addimage')->with('success', 'Werk updated!'); }
+        return redirect('/werken')->with('success', 'Werk updated!'); }
         }
         
 

@@ -33,14 +33,16 @@ Route::get('/overons', function () {
     return view('overons');
 });
 
-Route::get('werken/test', function () {
-    return view('werken.test');
+Route::get('/werken/test', function () {
+    return view('werken/test');
 });
-Route::get('/werken/users', function () {
-    return view('werken/users');
- });
-Route::resource('werken', 'App\Http\Controllers\WerkController');
 
+Route::get('/users/index', [
+'uses' => 'App\Http\Controllers\AuthController@view']);
+
+    
+Route::resource('werken', 'App\Http\Controllers\WerkController');
+Route::resource('users', 'App\Http\Controllers\AuthController');
 Route::resource('dashboard', 'App\Http\Controllers\TestController');
 
 Route::get('/', function () {
@@ -50,12 +52,10 @@ Route::get('/', function () {
 Route::get('/registration', function () {
     return view('registration');
 });
-
+Route::get('users','App\Http\Controllers\AuthController@view');
 Route::get('login', 'App\Http\Controllers\AuthController@index');
-
 Route::post('post-login', 'App\Http\Controllers\AuthController@postLogin');
-Route::get('registration', 'App\Http\Controllers\AuthController@registration');
-Route::post('post-registration', 'App\Http\Controllers\AuthController@postRegistration');
+Route::get('create', 'App\Http\Controllers\AuthController@create');
 
 
 Route::get('logout', 'App\Http\Controllers\AuthController@logout');

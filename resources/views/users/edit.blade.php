@@ -9,7 +9,7 @@
         </div>
         <div class="col-sm-10 col-xs-12 cat-box">
             <div class="inside-box">
-                <h1>Edit Project: {{$werk->title}}</h1>
+                <h1>Edit User: {{$user->name}}</h1>
             </div>
         </div>
     </div>
@@ -26,8 +26,8 @@
             </li>
             <li class='mains'> <a href="#" data-toggle="collapse" data-target="#products" class="collapsed active" > <i class="fa fa-bar-chart-o"></i> <span class="nav-label">Admin-Pages</span> <span class="fa fa-chevron-left pull-right"></span> </a>
             <ul class="sub-menu collapse" id="products">
-              <li class="active"><a href="{{ route('werken.index')}}">Projects</a></li>
-              <li><a href="/users/index">Admins</a></li>
+              <li><a href="{{ route('werken.index')}}">Projects</a></li>
+              <li class="active"><a href="/users/index">Admins</a></li>
               <li><a href="#">Statistics</a></li>
             
             </ul>
@@ -38,25 +38,20 @@
         </ul>
         </div>
         <div class="col-md-8  col-sm-8 col-xs-8 signup-form">
-        <form method="POST" action="{{ route('werken.update',[$werk->id]) }}">
-            @csrf  
-
-@method('PUT')
+            <form method="POST" action="{{ route('users.update',[$user->id]) }}">
+                @csrf  
+                @method('PUT')
                 <div class="form-group">
-                    <label for="title">Title:</label>
-                    <input type="text" class="form-control" value= "{{$werk->title}}" name="title"/> 
+                    <label for="title">Name:</label>
+                    <input type="text" class="form-control" value= "{{$user->name}}"name="name"/> 
                 </div>
                 <div class="form-group">
-                    <label for="blog">Blog</label>
-                    <input type="text" class="form-control" value= "{{$werk->blog}}" name="blog"/>
+                    <label for="blog">Email</label>
+                    <input type="text" class="form-control" value= "{{$user->email}} "name="email"/>
                 </div>
                 <div class="form-group">
-                    <label for="url">Url</label>
-                    <input type="text" class="form-control" value= "{{$werk->url}}" name="url"/>
-                </div>
-                <div class="custom-file form-group">
-                    <input type="file" name="file" class="custom-file-input" id="chooseFile">
-                    <label class="custom-file-label" for="chooseFile">Select file</label>
+                    <label for="url">Password</label>
+                    <input type="text" class="form-control" name="password"/>
                 </div>
                 <button type="submit" class="btn btn-secondary">Toevoegen</button> 
             </form>

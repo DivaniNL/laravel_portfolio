@@ -9,7 +9,7 @@
         </div>
         <div class="col-sm-10 col-xs-12 cat-box">
             <div class="inside-box">
-                <h1>Edit Project: {{$werk->title}}</h1>
+                <h1>Add User:</h1>
             </div>
         </div>
     </div>
@@ -38,28 +38,39 @@
         </ul>
         </div>
         <div class="col-md-8  col-sm-8 col-xs-8 signup-form">
-        <form method="POST" action="{{ route('werken.update',[$werk->id]) }}">
-            @csrf  
-
-@method('PUT')
-                <div class="form-group">
-                    <label for="title">Title:</label>
-                    <input type="text" class="form-control" value= "{{$werk->title}}" name="title"/> 
-                </div>
-                <div class="form-group">
-                    <label for="blog">Blog</label>
-                    <input type="text" class="form-control" value= "{{$werk->blog}}" name="blog"/>
-                </div>
-                <div class="form-group">
-                    <label for="url">Url</label>
-                    <input type="text" class="form-control" value= "{{$werk->url}}" name="url"/>
-                </div>
-                <div class="custom-file form-group">
-                    <input type="file" name="file" class="custom-file-input" id="chooseFile">
-                    <label class="custom-file-label" for="chooseFile">Select file</label>
-                </div>
-                <button type="submit" class="btn btn-secondary">Toevoegen</button> 
-            </form>
+        <form action="{{ route('users.store') }}" method="POST" id="regForm">
+           {{ csrf_field() }}
+           <div class="form-group">
+               <div class="input-group">
+                   <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                   <input type="text" class="form-control" name="name" id="inputName" placeholder="Username" required="required">
+               </div>
+               @if ($errors->has('name'))
+                   <span class="error">{{ $errors->first('name') }}</span>
+               @endif
+           </div>
+           <div class="form-group">
+               <div class="input-group">
+                   <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
+                   <input type="email" class="form-control" name="email" id="inputEmail" placeholder="E-mail address" required="required">
+               </div>
+               @if ($errors->has('email'))
+                   <span class="error">{{ $errors->first('email') }}</span>
+               @endif
+           </div>
+           <div class="form-group">
+               <div class="input-group">
+                   <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                   <input type="password" class="form-control" name="password" id="inputPassword" placeholder="Password" required="required">
+               </div>
+               @if ($errors->has('password'))
+                   <span class="error">{{ $errors->first('password') }}</span>
+               @endif
+           </div>
+           <div class="form-group">
+           <button type="submit" class="btn btn-success btn-block btn-lg">Add</button>
+           </div>
+       </form>
         </div>
     </div>
 </div>

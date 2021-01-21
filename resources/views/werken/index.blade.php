@@ -5,7 +5,7 @@
 
         <div class="col-sm-2 col-xs-12 user-box">
         <div class="inside-box">
-        <p>User</p>
+        <p>{{ Auth::user()->name }}</p>
         </div>
         </div>
         <div class="col-sm-10 col-xs-12 cat-box">
@@ -19,8 +19,8 @@
             <ul class="list-sidebar bg-defoult">
               <li class='mains'> <a href="#" data-toggle="collapse" data-target="#dashboard" class="collapsed active" > <i class="fa fa-th-large"></i> <span class="nav-label"> Public-Pages </span> <span class="fa fa-chevron-left pull-right"></span> </a>
               <ul class="sub-menu collapse" id="dashboard">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
+              <li><a href="/">Home</a></li>
+                <li><a href="/dashboard">Projects</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
               </ul>
@@ -28,7 +28,7 @@
             <li class='mains'> <a href="#" data-toggle="collapse" data-target="#products" class="collapsed active" > <i class="fa fa-bar-chart-o"></i> <span class="nav-label">Admin-Pages</span> <span class="fa fa-chevron-left pull-right"></span> </a>
             <ul class="sub-menu collapse" id="products">
               <li class="active"><a href="#">Projects</a></li>
-              <li><a href="">Admins</a></li>
+              <li><a href="../users/index">Admins</a></li>
               <li><a href="#">Statistics</a></li>
             
             </ul>
@@ -38,7 +38,10 @@
 
     </ul>
     </div>
-    <div class="col-md-10  col-sm-12 col-xs-12 admin-table">
+    
+    <div class="col-md-9  col-sm-12 col-xs-12 admin-table">
+        <br>
+    <a class="btn btn-success btn-lg btn-block" href="/werken/create">Add new project <i class="fa fa-plus"></i></a>
         <table class="table table-striped ">
             <thead> 
                 <tr>

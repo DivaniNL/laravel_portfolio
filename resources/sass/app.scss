@@ -36,9 +36,11 @@
 
 .signup-form{
     min-width: 200px;
-    width: 500px;
+    margin: 0 auto;
     .alert {
-        width:40%;    
+        width:60%; 
+        margin: 0 auto;
+        text-align: center;   
      }
 }
 
@@ -79,9 +81,9 @@
             }
         }
         .admin-table{
+            margin: 0 auto;
             table{
                 margin-top: 20px;
-                margin-left: 10px;
                 thead{
                     background-color: $admin1;
                     color: white;
