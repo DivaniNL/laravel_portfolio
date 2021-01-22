@@ -9,7 +9,7 @@
         </div>
         <div class="col-sm-10 col-xs-12 cat-box">
             <div class="inside-box">
-                <h1>Edit User: {{$user->name}}</h1>
+                <h1>Edit User:</h1>
             </div>
         </div>
     </div>
@@ -26,8 +26,8 @@
             </li>
             <li class='mains'> <a href="#" data-toggle="collapse" data-target="#products" class="collapsed active" > <i class="fa fa-bar-chart-o"></i> <span class="nav-label">Admin-Pages</span> <span class="fa fa-chevron-left pull-right"></span> </a>
             <ul class="sub-menu collapse" id="products">
-              <li><a href="{{ route('werken.index')}}">Projects</a></li>
-              <li class="active"><a href="/users/index">Admins</a></li>
+              <li class="active"><a href="{{ route('werken.index')}}">Projects</a></li>
+              <li><a href="/users/index">Admins</a></li>
               <li><a href="#">Statistics</a></li>
             
             </ul>
@@ -38,23 +38,40 @@
         </ul>
         </div>
         <div class="col-md-8  col-sm-8 col-xs-8 signup-form">
-            <form method="POST" action="{{ route('users.update',[$user->id]) }}">
-                @csrf  
+        <form action="{{ route('users.update',[$user->id]) }}" method="POST" id="regForm">
+           @csrf  
                 @method('PUT')
-                <div class="form-group">
-                    <label for="title">Name:</label>
-                    <input type="text" class="form-control" value= "{{$user->name}}"name="name"/> 
-                </div>
-                <div class="form-group">
-                    <label for="description">Email</label>
-                    <input type="text" class="form-control" value= "{{$user->email}} "name="email"/>
-                </div>
-                <div class="form-group">
-                    <label for="url">Password</label>
-                    <input type="text" class="form-control" name="password"/>
-                </div>
-                <button type="submit" class="btn btn-secondary">Toevoegen</button> 
-            </form>
+           <div class="form-group">
+               <div class="input-group">
+                   <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                   <input type="text" class="form-control" name="name" id="inputName" value="{{$user->name}}" required="required">
+               </div>
+               @if ($errors->has('name'))
+                   <span class="error">{{ $errors->first('name') }}</span>
+               @endif
+           </div>
+           <div class="form-group">
+               <div class="input-group">
+                   <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
+                   <input type="email" class="form-control" name="email" id="inputEmail" value="{{$user->email}}" required="required">
+               </div>
+               @if ($errors->has('email'))
+                   <span class="error">{{ $errors->first('email') }}</span>
+               @endif
+           </div>
+           @if (($user->password) ==  Auth::user()->password)
+           <div class="form-group">
+               <div class="input-group">
+                   <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                   <input type="password" class="form-control" name="password" id="inputPassword" placeholder="Password" required="required">
+               </div>
+               
+           </div>
+           @endif
+           <div class="form-group">
+           <button type="submit" class="btn btn-success btn-block btn-lg">Edit</button>
+           </div>
+       </form>
         </div>
     </div>
 </div>

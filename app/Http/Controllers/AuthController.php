@@ -107,7 +107,7 @@ class AuthController extends Controller
         $request->validate([
             'name'=>'required', 
             'email'=>'required', 
-            'password'=>'required', 
+            'password', 
         ]);       
         $user = User::find($id);
         $user->name = $request->get('name'); 

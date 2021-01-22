@@ -18,7 +18,7 @@ class WerkController extends Controller
     public function index()
     {
 
-        $werken = Werk::all();
+        $werken = Werk::orderBy('created_at', 'desc')->get();
         if(Auth::check()){
             return view('werken.index', compact('werken'));
         }

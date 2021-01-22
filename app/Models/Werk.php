@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Werk extends Model
 {
-    protected $fillable = ['title', 'description', 'url', 'file'];
+    protected $fillable = ['title','created_at_', 'description', 'url', 'file'];
 }

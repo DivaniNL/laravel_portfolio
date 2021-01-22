@@ -9,7 +9,7 @@
         </div>
         <div class="col-sm-10 col-xs-12 cat-box">
             <div class="inside-box">
-                <h1>Edit Project: {{$werk->title}}</h1>
+                <h1>Change Project:</h1>
             </div>
         </div>
     </div>
@@ -38,27 +38,33 @@
         </ul>
         </div>
         <div class="col-md-8  col-sm-8 col-xs-8 signup-form">
-        <form method="POST" action="{{ route('werken.update',[$werk->id]) }}">
-            @csrf  
-
-@method('PUT')
+        <form method="post" action="{{ route('werken.update',[$werk->id]) }}">
+                @csrf
+                @method('PUT')
                 <div class="form-group">
-                    <label for="title">Title:</label>
-                    <input type="text" class="form-control" value= "{{$werk->title}}" name="title"/> 
-                </div>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-header"></i></span>
+                        <input type="text" placeholder = "Title" class="form-control" name="title"/> 
+                    </div>
+                </div>  
                 <div class="form-group">
-                    <label for="description">description</label>
-                    <input type="text" class="form-control" value= "{{$werk->description}}" name="description"/>
-                </div>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fas fa-pen"></i></span>
+                        <input type="text" placeholder = "description" class="form-control" name="description"/> 
+                    </div>
+                </div>  
                 <div class="form-group">
-                    <label for="url">Url</label>
-                    <input type="text" class="form-control" value= "{{$werk->url}}" name="url"/>
-                </div>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-link"></i></span>
+                        <input type="text" placeholder = "Url" class="form-control" name="url"/> 
+                    </div>
+                </div>  
                 <div class="custom-file form-group">
                     <input type="file" name="file" class="custom-file-input" id="chooseFile">
                     <label class="custom-file-label" for="chooseFile">Select file</label>
                 </div>
-                <button type="submit" class="btn btn-secondary">Toevoegen</button> 
+                <br><br>
+                <button type="submit" class="btn btn-success btn-block btn-lg">Add</button>
             </form>
         </div>
     </div>
