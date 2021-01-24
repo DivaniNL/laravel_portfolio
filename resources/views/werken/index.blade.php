@@ -25,7 +25,7 @@
                 <li><a href="#">Contact</a></li>
               </ul>
             </li>
-            <li class='mains'> <a href="#" data-toggle="collapse" data-target="#products" class="collapsed active" > <i class="fa fa-bar-chart-o"></i> <span class="nav-label">Admin-Pages</span> <span class="fa fa-chevron-left pull-right"></span> </a>
+            <li class='mains'> <a href="#" data-toggle="collapse" data-target="#products" class="collapsed active" > <i class="fa fa-th-large"></i> <span class="nav-label">Admin-Pages</span> <span class="fa fa-chevron-left pull-right"></span> </a>
             <ul class="sub-menu collapse" id="products">
               <li class="active"><a href="#">Projects</a></li>
               <li><a href="../users/index">Admins</a></li>

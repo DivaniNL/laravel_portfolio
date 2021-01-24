@@ -2,7 +2,8 @@
 <html>
     <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-    <link href="{{url('/css/test.min.css')}}" rel="stylesheet"/>    
+	<link href="{{url('/css/test.min.css')}}" rel="stylesheet"/>    
+	<link href="{{url('/css/personal.min.css')}}" rel="stylesheet"/>    
 </head>
     <body>
 <main class="container">
@@ -40,10 +41,15 @@
 				</li>
 				
 				<a href="/dashboard"><li class="channel focusable channel-text">
-					<span class="channel-name">Projects</span>
+					<span class="channel-name">projects</span>
 					<button class="button" role="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" role="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li></a>
+				<a href="/about"><li class="channel focusable channel-text ">
+					<span class="channel-name">about</span>
+					<button class="button" role="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
+					<button class="button" role="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
+				</li>
 			</ul>
 			
 			<header class="channels-list-header focusable">
@@ -58,7 +64,12 @@
 				</li>
 				
 				<a href="/dashboard"><li class="channel focusable channel-text">
-					<span class="channel-name">Projects</span>
+					<span class="channel-name">projects</span>
+					<button class="button" role="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
+					<button class="button" role="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
+				</li></a>
+				<a href="/about"><li class="channel focusable channel-text ">
+					<span class="channel-name">about</span>
 					<button class="button" role="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" role="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li></a>
@@ -85,7 +96,22 @@
 		</menu>
 		
 		<section class="chat">
-		
+			<div class="content">
+			
+			<h1>Webdeveloper</h1>
+			
+			<h3>Hi! I am Dylan, a mostly Front-end focussed webdeveloper from the Netherlands.</h3>
+			
+			<p>I made this website during my education at the Graphic Lyceum Utrecht.</p>
+
+			
+
+
+
+
+
+
+			</div>
 		</section>
 	</div>
 </main>

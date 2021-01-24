@@ -40,7 +40,12 @@
 				</li></a>
 				
 				<li class="channel focusable channel-text active">
-					<span class="channel-name">Projects</span>
+					<span class="channel-name">projects</span>
+					<button class="button" role="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
+					<button class="button" role="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
+				</li>
+				<a href="/about"><li class="channel focusable channel-text ">
+					<span class="channel-name">about</span>
 					<button class="button" role="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" role="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
@@ -51,14 +56,19 @@
             </header>
 
             <ul class="channels-list-voice" id="voices">
-				<li class="channel focusable channel-text ">
+			<a href="/home"><li class="channel focusable channel-text ">
 					<span class="channel-name">general</span>
 					<button class="button" role="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" role="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
 				
-				<a href="/dashboard"><li class="channel focusable active channel-text">
-					<span class="channel-name">Projects</span>
+				<li class="channel focusable active channel-text active">
+					<span class="channel-name">projects</span>
+					<button class="button" role="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
+					<button class="button" role="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
+				</li></a>
+				<a href="/about"><li class="channel focusable channel-text ">
+					<span class="channel-name">about</span>
 					<button class="button" role="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" role="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li></a>
@@ -85,36 +95,18 @@
 		</menu>
 		
 		<section class="chat">
-		<table>
-            <thead> 
-                <tr>
-                    <td>ID</td>
-                    <td>Title</td> 
-                    <td>description</td>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach($werken as $werk) 
-                <tr>
-                    <td>{{$werk->id}}</td> 
-                    <td>{{$werk->title}}</td> 
-                    <td>{{$werk->description}}</td> 
-                     
-                </tr>
-                @endforeach
-            </tbody>
-        </table>
-        <ul class="project_images">
-        @foreach($werken as $werk) 
-        <li><a href="//{{$werk->url}}">
-            <img class = "image_project" src="{{ asset('storage/images/'.$werk->file) }}" alt="Image"/>
-            </a> 
-        </li>
-                    
-                     
-
-                @endforeach
-                </ul>
+			<h1 class="centeredh1"> Some of my work </h1>
+        	<ul class="project_images">
+        	@foreach($werken as $werk) 
+        		<li>
+					<a href="//{{$werk->url}}">
+        	    		<img class = "image_project" src="{{ asset('storage/images/'.$werk->file) }}" alt="Image"/>
+						<h2>{{$werk->title}}</h2>
+					</a> 
+					
+       			</li>
+        	@endforeach
+        	</ul>
 		</section>
 	</div>
 </main>

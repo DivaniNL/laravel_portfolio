@@ -18,9 +18,9 @@
         <ul class="list-sidebar bg-defoult">
               <li class='mains'> <a href="#" data-toggle="collapse" data-target="#dashboard" class="collapsed active" > <i class="fa fa-th-large"></i> <span class="nav-label"> Public-Pages </span> <span class="fa fa-chevron-left pull-right"></span> </a>
               <ul class="sub-menu collapse" id="dashboard">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/dashboard">Projects</a></li>
+                <li><a href="/about">About</a></li>
                 <li><a href="#">Contact</a></li>
               </ul>
             </li>
@@ -38,25 +38,25 @@
         </ul>
         </div>
         <div class="col-md-8  col-sm-8 col-xs-8 signup-form">
-        <form method="post" action="{{ route('werken.update',[$werk->id]) }}">
+        <form method="post" enctype="multipart/form-data" action="{{ route('werken.update',[$werk->id]) }}">
                 @csrf
                 @method('PUT')
                 <div class="form-group">
                     <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-header"></i></span>
-                        <input type="text" placeholder = "Title" class="form-control" name="title"/> 
+                        <span class="input-group-addon"><i class="fa fa-heading"></i></span>
+                        <input type="text" placeholder = "Title" class="form-control" value="{{$werk->title}}" name="title"/> 
                     </div>
                 </div>  
                 <div class="form-group">
                     <div class="input-group">
                         <span class="input-group-addon"><i class="fas fa-pen"></i></span>
-                        <input type="text" placeholder = "description" class="form-control" name="description"/> 
+                        <input type="text" placeholder = "description" class="form-control" value="{{$werk->description}}" name="description"/> 
                     </div>
                 </div>  
                 <div class="form-group">
                     <div class="input-group">
                         <span class="input-group-addon"><i class="fa fa-link"></i></span>
-                        <input type="text" placeholder = "Url" class="form-control" name="url"/> 
+                        <input type="text" placeholder = "Url" class="form-control" value="{{$werk->url}}" name="url"/> 
                     </div>
                 </div>  
                 <div class="custom-file form-group">

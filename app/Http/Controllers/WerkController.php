@@ -105,9 +105,9 @@ class WerkController extends Controller
         $werk = Werk::find($id);
         $werk->title = $request->get('title'); 
         $werk->description = $request->get('description'); 
-        $werk->file = $request->get('file'); 
+        $werk->file = $request->file('file')->getClientOriginalName(); 
         $werk->url = $request->get('url');
-
+        $request->file->storeAs('images', $request->file->getClientOriginalName());
         
         $werk->save();
         return redirect('/werken')->with('success', 'Werk updated!'); }
