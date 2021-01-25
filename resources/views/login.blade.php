@@ -15,13 +15,12 @@
     <div class="row admin-content">
     <div class="col-md-2 col-sm-12 col-xs-12 admin-sidebar sidebar left">
         <ul class="list-sidebar bg-defoult">
+        <li class="mains"> <a href="{{url('home')}}"> <i class="fa fa-home"></i> <span class="nav-label">Home</span></a> </li>
+        <li class="mains"> <a href="{{url('dashboard')}}"> <i class="fa fa-th-large"></i> <span class="nav-label">Projects</span></a> </li>
+        <li class="mains"> <a href="{{url('about')}}"> <i class="fa fa-user"></i> <span class="nav-label">About</span></a> </li>
+        <li class="mains"> <a href="{{url('contact')}}"> <i class="fa fa-phone"></i> <span class="nav-label">Contact</span></a> </li>
 
-            <li class="mains"> <a href="{{url('logout')}}"> <i class="fa fa-phone"></i> <span class="nav-label">Contact</span></a> </li>
 
-            <li class="mains"> <a href="{{url('logout')}}"> <i class="fa fa-user"></i> <span class="nav-label">About</span></a> </li>
-
-            <li class="mains"> <a href="{{url('logout')}}"> <i class="fa fa-th-large"></i> <span class="nav-label">Projects</span></a> </li>
-            <li class="mains"> <a href="{{url('logout')}}"> <i class="fa fa-home"></i> <span class="nav-label">Home</span></a> </li>
 
         </ul>
     </div>
