@@ -1,9 +1,10 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 	<link href="{{url('/css/test.min.css')}}" rel="stylesheet"/>    
 	<link href="{{url('/css/personal.min.css')}}" rel="stylesheet"/>    
+	<title>Dylan van Nierop</title>
 </head>
     <body>
 <main class="container">
@@ -16,16 +17,16 @@
 
 		
 		<div class="servers-collection">
-			<div class="server focusable active" role="button" aria-label="My Server" aria-selected="true">
-				<div class="server-icon"><img src="https://discordapp.com/assets/0e291f67c9274a1abdddeb3fd919cbaa.png" /></div>
+			<div class="server focusable active" role="button" aria-label="My Server">
+				<div class="server-icon"><img src="https://discordapp.com/assets/0e291f67c9274a1abdddeb3fd919cbaa.png" alt="discord_image" /></div>
 			</div>
 		</div>
 	</aside>
 	
 	<aside class="channels">
 		<header class="channels-header focusable">
-			<h3 role="header" class="channels-header-name">Dylan van Nierop</h3>
-			<svg role="button" aria-label="Dropdown" class="channels-header-dropdown"><use xlink:href="#icon-dropdown" /></svg>
+			<h3  class="channels-header-name">Dylan van Nierop</h3>
+			<svg aria-label="Dropdown" class="channels-header-dropdown"><use xlink:href="#icon-dropdown" /></svg>
 		</header>
 				
 		<section class="channels-list">
@@ -35,44 +36,44 @@
 			
 			<ul class="channels-list-text" id="texts">
 				<li class="channel focusable channel-text active">
-					<span class="channel-name">general</span>
-					<button class="button" role="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
-					<button class="button" role="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
+					<a><span class="channel-name">general</span></a>
+					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
+					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
 				
-				<a href="/dashboard"><li class="channel focusable channel-text">
-					<span class="channel-name">projects</span>
-					<button class="button" role="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
-					<button class="button" role="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
-				</li></a>
-				<a href="/about"><li class="channel focusable channel-text ">
-					<span class="channel-name">about</span>
-					<button class="button" role="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
-					<button class="button" role="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
+				<li class="channel focusable channel-text">
+				<a href="/dashboard"><span class="channel-name">projects</span></a>
+					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
+					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
+				</li>
+				<li class="channel focusable channel-text ">
+				<a href="/about"><span class="channel-name">about</span></a>
+					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
+					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
 			</ul>
 			
 			<header class="channels-list-header focusable">
-				<h5>Voice Channels</h5><i onclick="test2()" id="new" class="fa fa-plus"></i>
+				<h5>Voice Channels</h5><i onclick="test2()" id="new2" class="fa fa-plus"></i>
             </header>
 
             <ul class="channels-list-voice" id="voices">
 				<li class="channel focusable channel-text active">
-					<span class="channel-name">general</span>
-					<button class="button" role="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
-					<button class="button" role="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
+					<a><span class="channel-name">general</span></a>
+					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
+					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
 				
-				<a href="/dashboard"><li class="channel focusable channel-text">
-					<span class="channel-name">projects</span>
-					<button class="button" role="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
-					<button class="button" role="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
-				</li></a>
-				<a href="/about"><li class="channel focusable channel-text ">
-					<span class="channel-name">about</span>
-					<button class="button" role="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
-					<button class="button" role="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
-				</li></a>
+				<li class="channel focusable channel-text">
+				<a href="/dashboard"><span class="channel-name">projects</span></a>
+					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
+					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
+				</li>
+				<li class="channel focusable channel-text ">
+				<a href="/about"><span class="channel-name">about</span></a>
+					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
+					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
+				</li>
 			</ul>
 		</section>
 		
@@ -83,17 +84,17 @@
 				<span class="tag">#0001</span>
 			</div>
 			<div class="channels-footer-controls button-group">
-				<button role="button" aria-label="Mute" class="button button-mute"><svg><use xlink:href="#icon-mute" /></svg></button>
-				<button role="button" aria-label="Deafen" class="button button-deafen"><svg><use xlink:href="#icon-deafen" /></svg></button>
-				<button role="button" aria-label="Settings" class="button button-settings"><svg><use xlink:href="#icon-settings" /></svg></button>
+				<button aria-label="Mute" class="button button-mute"><svg><use xlink:href="#icon-mute" /></svg></button>
+				<button aria-label="Deafen" class="button button-deafen"><svg><use xlink:href="#icon-deafen" /></svg></button>
+				<button aria-label="Settings" class="button button-settings"><svg><use xlink:href="#icon-settings" /></svg></button>
 			</div>
 		</footer>
 	</aside>
 		
 	<div class="vert-container">
-		<menu type="toolbar" class="menu">
+		<div class="menu">
 			<h2 class="menu-name">general</h2>
-		</menu>
+</div>
 		
 		<section class="chat">
 			<div class="content">
@@ -174,11 +175,16 @@ function test(){
     channel.classList.add("focusable");
     channel.classList.add("channel-text");
     document.getElementById('texts').appendChild(channel);
-    
+	
+	let a = document.createElement('a');
+
+    channel.appendChild(a);
+
+
     let span = document.createElement('span');
     span.classList.add("channel-name");
     span.innerHTML = "You have found an Easter Egg";
-    channel.appendChild(span);
+    a.appendChild(span);
 
     let button1 = document.createElement('button');
     button1.classList.add('button');
@@ -193,11 +199,15 @@ function test2(){
     channel.classList.add("focusable");
     channel.classList.add("channel-text");
     document.getElementById('voices').appendChild(channel);
-    
+	
+	let a = document.createElement('a');
+
+    channel.appendChild(a);
+
     let span = document.createElement('span');
     span.classList.add("channel-name");
     span.innerHTML = "You have found an Easter Egg";
-    channel.appendChild(span);
+    a.appendChild(span);
 
     let button1 = document.createElement('button');
     button1.classList.add('button');

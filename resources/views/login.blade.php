@@ -1,6 +1,3 @@
-
-
-
 @extends('base') 
 @section('main')
 <div class="container-fluid admin-container">
@@ -66,7 +63,3 @@
 </div>
 @endsection
        
-      
-   </div>
-</body>
-</html>
