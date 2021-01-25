@@ -192,6 +192,18 @@
   }
 }
 
+.admin-container .admin-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  line-height: 50px;
+  width: 100%;
+  background-color: #105689;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+
 .sidebar {
   background-color: #105689;
   transition: all 0.5s ease-in-out;

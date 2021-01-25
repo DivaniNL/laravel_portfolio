@@ -21,14 +21,14 @@
                 <li><a href="/home">Home</a></li>
                 <li><a href="/dashboard">Projects</a></li>
                 <li><a href="/about">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="/contact">Contact</a></li>
               </ul>
             </li>
             <li class='mains'> <a href="#" data-toggle="collapse" data-target="#products" class="collapsed active" > <i class="fa fa-bar-chart-o"></i> <span class="nav-label">Admin-Pages</span> <span class="fa fa-chevron-left pull-right"></span> </a>
             <ul class="sub-menu collapse" id="products">
-              <li class="active"><a href="{{ route('werken.index')}}">Projects</a></li>
-              <li><a href="/users/index">Admins</a></li>
-              <li><a href="#">Statistics</a></li>
+              <li class=""><a href="{{ route('werken.index')}}">Projects</a></li>
+              <li class="active"><a href="/users/index">Admins</a></li>
+              <li><a href="">Statistics</a></li>
             
             </ul>
           </li>
@@ -73,5 +73,8 @@
        </form>
         </div>
     </div>
+    <div class="admin-footer">
+    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Dylan van Nierop. All Rights Reserved </p>
+</div>
 </div>
 @endsection
