@@ -124,7 +124,7 @@
 	</div>
 </main>
 <div class="viewer-footer">
-    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Dylan van Nierop. All Rights Reserved </p>
+    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Dylan van Nierop</p>
 </div>
 
 <!-- ICONS -->
