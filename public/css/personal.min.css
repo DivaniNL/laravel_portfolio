@@ -1114,8 +1114,8 @@ html {
   /* Keeps the content on a single line */
   margin: 0 auto;
   /* Gives that scrolling effect as the typing happens */
-  margin-bottom: 55px;
-  margin-top: 55px;
+  margin-bottom: 35px;
+  margin-top: 35px;
   letter-spacing: 0.15em;
   /* Adjust as needed */
   -webkit-animation: typing5 1.5s steps(40, end), blink-caret 0.75s step-end infinite;
@@ -1137,6 +1137,12 @@ html {
     margin-top: 10px;
   }
 
+  .vert-container .chat .content5 p {
+    font-size: 0.75rem;
+  }
+}
+
+@media all and (max-width: 770px) {
   .vert-container .chat .content5 p {
     font-size: 0.75rem;
   }
