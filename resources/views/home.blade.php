@@ -52,6 +52,11 @@
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
+				<li class="channel focusable channel-text ">
+				<a href="/contact"><span class="channel-name">contact</span></a>
+					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
+					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
+				</li>
 			</ul>
 			
 			<header class="channels-list-header focusable">
@@ -72,6 +77,11 @@
 				</li>
 				<li class="channel focusable channel-text ">
 				<a href="/about"><span class="channel-name">about</span></a>
+					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
+					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
+				</li>
+				<li class="channel focusable channel-text ">
+				<a href="/contact"><span class="channel-name">contact</span></a>
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
@@ -105,7 +115,7 @@
 			<h3>Hi! I am Dylan, a mostly Front-end focussed webdeveloper from the Netherlands.</h3>
 			
 			<p>I made this website during my education at the Graphic Lyceum Utrecht.</p>
-
+			<a href="/dashboard"><button class="buttoneffect"><span>View my work </span></button></a>
 			
 
 
@@ -116,6 +126,7 @@
 			</div>
 		</section>
 	</div>
+	
 </main>
 <div class="viewer-footer">
     <p>Copyright &copy; 2020 - <?php echo date('Y')?> Dylan van Nierop. All Rights Reserved </p>

@@ -52,6 +52,11 @@
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
+				<li class="channel focusable channel-text ">
+				<a href="/contact"><span class="channel-name">contact</span></a>
+					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
+					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
+				</li>
 			</ul>
 			
 			<header class="channels-list-header focusable">
@@ -72,6 +77,11 @@
             </li>
            <li class="channel focusable channel-text active">
 					<a><span class="channel-name">about</span></a>
+					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
+					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
+				</li>
+				<li class="channel focusable channel-text ">
+				<a href="/contact"><span class="channel-name">contact</span></a>
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>

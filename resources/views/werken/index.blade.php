@@ -21,8 +21,8 @@
               <ul class="sub-menu collapse" id="dashboard">
               <li><a href="/">Home</a></li>
                 <li><a href="/dashboard">Projects</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="/about">Contact</a></li>
+                <li><a href="/contact">Contact</a></li>
               </ul>
             </li>
             <li class='mains'> <a href="#" data-toggle="collapse" data-target="#products" class="collapsed active" > <i class="fa fa-th-large"></i> <span class="nav-label">Admin-Pages</span> <span class="fa fa-chevron-left pull-right"></span> </a>

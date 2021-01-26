@@ -21,7 +21,7 @@
                 <li><a href="/home">Home</a></li>
                 <li><a href="/dashboard">Projects</a></li>
                 <li><a href="/about">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="/contact">Contact</a></li>
               </ul>
             </li>
             <li class='mains'> <a href="#" data-toggle="collapse" data-target="#products" class="collapsed active" > <i class="fa fa-bar-chart-o"></i> <span class="nav-label">Admin-Pages</span> <span class="fa fa-chevron-left pull-right"></span> </a>

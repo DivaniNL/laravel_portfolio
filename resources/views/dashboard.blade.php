@@ -52,6 +52,11 @@
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
+				<li class="channel focusable channel-text ">
+				<a href="/contact"><span class="channel-name">contact</span></a>
+					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
+					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
+				</li>
 			</ul>
 			
 			<header class="channels-list-header focusable">
@@ -72,6 +77,11 @@
 				</li>
 				<li class="channel focusable channel-text ">
 				<a href="/about"><span class="channel-name">about</span></a>
+					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
+					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
+				</li>
+				<li class="channel focusable channel-text ">
+				<a href="/contact"><span class="channel-name">contact</span></a>
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
@@ -97,7 +107,7 @@
 			<h2 class="menu-name">Projects</h2>
 </div>
 		
-		<section class="chat">
+		<section class="chat projectpage">
 			<h1 class="centeredh1"> Some of my work </h1>
         	<ul class="project_images">
         	@foreach($werken as $werk) 
