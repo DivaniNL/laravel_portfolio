@@ -8,7 +8,7 @@
 	<title>About me</title>
 </head>
     <body>
-<main class="container">
+	<main class="container">
 	<aside class="servers">
 		<div class="servers-collection">
 			<div class="server focusable server-friends unread" role="button" aria-label="Friends unread">
@@ -104,31 +104,58 @@
 		
 	<div class="vert-container">
 		<div class="menu">
-			<h2 class="menu-name">general</h2>
-</div>
-		
+			<h2 class="menu-name">about</h2>
+	</div>
 		<section class="chat">
-			<div class="content">
-			
-			<h1>Webdeveloper</h1>
-			
-			<h3>Hi! I am Dylan, a mostly Front-end focussed webdeveloper from the Netherlands.</h3>
-			
-			<p>I made this website during my education at the Graphic Lyceum Utrecht.</p>
+			<div class="content5">
+				<h1>About Me</h1>
+				<h3>My name is Dylan van Nierop, a <!--20 years--> 20 years old Dutch guy.</h3>
+				<p>After graduating from High School I had a leap year. 
+				This happened because I wanted to become a physical therapist in the first place, but after three months, 
+				I decided to drop out because I lost interest in the job.
+				<br>
+				During this leap year I did a course to become a fitness trainer. 
+				I also successfully finished the Fitness Master course at the same organisation.
+				<br>
+				In September 2019 I started studying Webdeveloper at the Graphic Lyceum in Utrecht. I hope to graduate in the summer of 2022.</p> 
+				<p>
+				Besides loving to code websites and webapplications, 
+				I enjoy to spend the rest of my time playing games, getting some excercise in or outside the gym, 
+				watching tv or a movie, not to mention I am a huge Formula 1 enthousiast.
+            	</p>
+				<br>
+				<!--- skills -->
+				<h1>My Skills</h1>
+				<div class="skills flex row">
+				<div class='skill_item'>
+					<h2 class='skill_title'>HTML/CSS</h2>	
+					<div class="progress">
+  						<div class="progress-value p1"><h4>80%</h4></div>
+					</div>
+				</div>
+				
+				<div class='skill_item'>
+					<h2 class='skill_title'>PHP</h2>	
+					<div class="progress">
+  						<div class="progress-value p2"><h4>80%</h4></div>
+					</div>
+				</div>
 
-			
-
-
-
-
-
-
+				<div class='skill_item'>
+					<h2 class='skill_title'>React</h2>	
+					<div class="progress">
+  						<div class="progress-value p3"><h4>30%</h4></div>
+					</div>
+				</div>
+				</div>
+				
+				
 			</div>
 		</section>
 	</div>
 </main>
 <div class="viewer-footer">
-    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Dylan van Nierop. All Rights Reserved </p>
+    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Dylan van Nierop</p>
 </div>
 
 <!-- ICONS -->

@@ -115,6 +115,8 @@
 			<h3>Hi! I am Dylan, a mostly Front-end focussed webdeveloper from the Netherlands.</h3>
 			
 			<p>I made this website during my education at the Graphic Lyceum Utrecht.</p>
+			
+			<p>Feel free to look around on this website for more information about myself and the projects I've done or taken part of.</p>
 			<a href="/dashboard"><button class="buttoneffect"><span>View my work </span></button></a>
 			
 
@@ -129,7 +131,7 @@
 	
 </main>
 <div class="viewer-footer">
-    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Dylan van Nierop. All Rights Reserved </p>
+<p>Copyright &copy; 2020 - <?php echo date('Y')?> Dylan van Nierop</p>
 </div>
 
 <!-- ICONS -->

@@ -12,7 +12,7 @@
 html,
 body {
   height: 100%;
-  background-color: white !important;
+  background-color: #1E2124 !important;
   color: #FFF;
   font-size: 16px;
   font-family: "Roboto";
@@ -88,6 +88,12 @@ body {
 .channels .channels-list-text,
 .channels .channels-list-voice {
   margin: 0 -20px 0 -20px;
+}
+
+@media all and (max-width: 500px) {
+  .channels .channels-list-voice {
+    display: none;
+  }
 }
 
 .channels .channels-header-name {
@@ -393,6 +399,12 @@ body {
   border-bottom: 2px solid #2a2e32;
 }
 
+@media all and (max-width: 800px) {
+  .server.server-friends::after {
+    content: "";
+  }
+}
+
 .server::before {
   position: absolute;
   top: 20px;
@@ -567,10 +579,23 @@ a {
 
 .viewer-footer {
   line-height: 50px;
-  width: 100%;
+  width: calc(100% - 310px);
+  float: right;
   background-color: #1E2124;
   height: 50px;
   color: white;
   text-align: center;
+  font-size: 10pt;
+}
+
+.viewer-footer p {
+  display: block;
+}
+
+@media all and (max-width: 770px) {
+  .viewer-footer {
+    width: 100%;
+    float: none;
+  }
 }
 

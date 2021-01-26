@@ -105,7 +105,7 @@
 		
 	<div class="vert-container">
 		<div class="menu">
-			<h2 class="menu-name">general</h2>
+			<h2 class="menu-name">contact</h2>
 </div>
 		
 		<section class="chat">
@@ -113,16 +113,26 @@
 			
 			<h1>Contact Me</h1>
 			
-			<h3>Hi! I am Dylan, a mostly Front-end focussed webdeveloper from the Netherlands.</h3>
-			
-			<p>I made this website during my education at the Graphic Lyceum Utrecht.</p>
+			<h3>If you want to get in touch with me, use the icons down below or contact me by phone or email.</h3>
+			<div class="flex row">
+			<table>
+				<tr>
+					<td>Email:&nbsp;&nbsp;</td>
+					<td>dylanvannierop@gmail.com</td>
+				</tr>
+				<tr>
+					<td>Phone:</td>
+					<td>+31 6 53816212</td>
+				</tr>
+			</table>
+			</div>
 
 			
 			<div class="flex row">
 
 			<div id="box1" class="flex icon out" onmouseenter="ins('box1')" onmouseleave="outs('box1')" ><i class="fa fa-instagram"></i></div>
 			<div id="box2" class="flex icon out" onmouseenter="ins('box2')" onmouseleave="outs('box2')"><i class="fa fa-github"></i></div>
-			<div id="box2" class="flex icon out" onmouseenter="ins('box3')" onmouseleave="outs('box3')"><i class="fa fa-facebook"></i></div>
+			<div id="box3" class="flex icon out" onmouseenter="ins('box3')" onmouseleave="outs('box3')"><i class="fa fa-facebook"></i></div>
 			</div>
 
 
@@ -134,7 +144,7 @@
 	</div>
 </main>
 <div class="viewer-footer">
-    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Dylan van Nierop. All Rights Reserved </p>
+<p>Copyright &copy; 2020 - <?php echo date('Y')?> Dylan van Nierop</p>
 </div>
 
 <!-- ICONS -->
