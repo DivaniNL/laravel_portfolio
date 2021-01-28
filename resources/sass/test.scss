@@ -47,7 +47,26 @@ html, body
 	height: 96%;
 	display: flex;
 }
-
+.container2
+{
+	height: 96%;
+	display: flex;
+}
+@media all and(max-width: 920px){
+	.container{
+		height: 105%;
+	}
+}
+@media all and(max-width: 769px){
+	.container{
+		height: 120%;
+	}
+}
+@media all and(max-width: 769px){
+	.container2{
+		height: 96%;
+	}
+}
 .vert-container
 {
 	display: flex;
@@ -124,7 +143,7 @@ html, body
 	{
 		margin: 0 -20px 0 -20px;
 	}
-	@media all and(max-width: 500px){
+	@media all and(max-width: 769px){
 		.channels-list-voice{
 			display: none;
 		}
@@ -310,13 +329,18 @@ html, body
 	}
 }
 @media screen and (max-width: 769px) {
-    .container {
+    .container, .container2 {
       flex-direction: column;
     }
     .servers {
       display: flex;
       flex-direction: row;
-    }
+	}
+	@media all and (max-width: 769px){
+		.servers{
+			display: none;
+		}
+	}
     .server{
         position: inherit !important;
         margin-bottom: 0px !important;

@@ -8,7 +8,7 @@
 	<title>Dylan van Nierop</title>
 </head>
     <body>
-<main class="container">
+<main class="container2">
 	<aside class="servers">
 		<div class="servers-collection">
 			<div class="server focusable server-friends unread" role="button" aria-label="Friends unread">

@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Session;
+use Storage;
 
 class WerkController extends Controller
 {
@@ -103,12 +104,15 @@ class WerkController extends Controller
         ]);
 
         $werk = Werk::find($id);
+
         $werk->title = $request->get('title'); 
         $werk->description = $request->get('description'); 
+        $old_image = $werk->file;
+        unlink(storage_path('app/public/images/'.$old_image));
         $werk->file = $request->file('file')->getClientOriginalName(); 
         $werk->url = $request->get('url');
         $request->file->storeAs('images', $request->file->getClientOriginalName());
-        
+
         $werk->save();
         return redirect('/werken')->with('success', 'Werk updated!'); }
         }
@@ -123,7 +127,10 @@ class WerkController extends Controller
     public function destroy($id)
     {
         {
-            $werk = Werk::find($id); $werk->delete();
+            $werk = Werk::find($id); 
+            $old_image = $werk->file;
+            unlink(storage_path('app/public/images/'.$old_image));
+            $werk->delete();
             return redirect('/werken')->with('success', 'Werk deleted!');
         }
     }

@@ -108,6 +108,7 @@
 	</div>
 		<section class="chat">
 			<div class="content5">
+				<img id="profile" src="{{url('/img/profile.jpg')}}">  
 				<h1>About Me</h1>
 				<h3>My name is Dylan van Nierop, a <!--20 years--> 20 years old Dutch guy.</h3>
 				<p>After graduating from High School I had a leap year. 
@@ -127,26 +128,58 @@
 				<!--- skills -->
 				<h1>My Skills</h1>
 				<div class="skills flex row">
+
 				<div class='skill_item'>
-					<h2 class='skill_title'>HTML/CSS</h2>	
+					<h2 class='skill_title'>HTML</h2>	
 					<div class="progress">
-  						<div class="progress-value p1"><h4>80%</h4></div>
+  						<div class="progress-value html"><h4>90%</h4></div>
 					</div>
 				</div>
 				
 				<div class='skill_item'>
-					<h2 class='skill_title'>PHP</h2>	
+					<h2 class='skill_title'>CSS</h2>	
 					<div class="progress">
-  						<div class="progress-value p2"><h4>80%</h4></div>
+  						<div class="progress-value css"><h4>90%</h4></div>
 					</div>
 				</div>
-
+				<div class='skill_item'>
+					<h2 class='skill_title'>SASS</h2>	
+					<div class="progress">
+  						<div class="progress-value sass"><h4>80%</h4></div>
+					</div>
+				</div>
+				<div class='skill_item'>
+					<h2 class='skill_title'>Javascript</h2>	
+					<div class="progress">
+  						<div class="progress-value javascript"><h4>80%</h4></div>
+					</div>
+				</div>
+				<div class='skill_item'>
+					<h2 class='skill_title'>PHP</h2>	
+					<div class="progress">
+  						<div class="progress-value php"><h4>75%</h4></div>
+					</div>
+				</div>
+				<div class='skill_item'>
+					<h2 class='skill_title'>JQuery</h2>	
+					<div class="progress">
+  						<div class="progress-value jquery"><h4>60%</h4></div>
+					</div>
+				</div>
 				<div class='skill_item'>
 					<h2 class='skill_title'>React</h2>	
 					<div class="progress">
-  						<div class="progress-value p3"><h4>30%</h4></div>
+  						<div class="progress-value react"><h4>30%</h4></div>
 					</div>
 				</div>
+				<div class='skill_item'>
+					<h2 class='skill_title'>Laravel</h2>	
+					<div class="progress">
+  						<div class="progress-value laravel"><h4>30%</h4></div>
+					</div>
+				</div>
+
+				
 				</div>
 				
 				

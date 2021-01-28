@@ -25,6 +25,29 @@ body {
   display: flex;
 }
 
+.container2 {
+  height: 96%;
+  display: flex;
+}
+
+@media all and (max-width: 920px) {
+  .container {
+    height: 105%;
+  }
+}
+
+@media all and (max-width: 769px) {
+  .container {
+    height: 120%;
+  }
+}
+
+@media all and (max-width: 769px) {
+  .container2 {
+    height: 96%;
+  }
+}
+
 .vert-container {
   display: flex;
   flex: 1;
@@ -92,7 +115,7 @@ body {
   margin: 0 -20px 0 -20px;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 769px) {
   .channels .channels-list-voice {
     display: none;
   }
@@ -282,7 +305,8 @@ body {
 }
 
 @media screen and (max-width: 769px) {
-  .container {
+  .container,
+  .container2 {
     flex-direction: column;
   }
 
@@ -290,18 +314,30 @@ body {
     display: flex;
     flex-direction: row;
   }
+}
 
+@media screen and (max-width: 769px) and (max-width: 769px) {
+  .servers {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
   .server {
     position: inherit !important;
     margin-bottom: 0px !important;
   }
+}
 
+@media screen and (max-width: 769px) {
   .servers-collection,
   .server-icon {
     margin-bottom: 0;
     margin-right: 0.5rem;
   }
+}
 
+@media screen and (max-width: 769px) {
   .channels-footer {
     display: none !important;
   }
@@ -1138,7 +1174,7 @@ html {
   }
 
   .vert-container .chat .content5 p {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
   }
 }
 
@@ -1146,6 +1182,14 @@ html {
   .vert-container .chat .content5 p {
     font-size: 0.75rem;
   }
+}
+
+.vert-container .chat .content5 #profile {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
 .vert-container .chat .content5 .skills {
@@ -1191,22 +1235,87 @@ html {
   padding-right: 15px;
 }
 
-.vert-container .chat .content5 .skills .skill_item .progress .p1 {
-  -webkit-animation: load 3s normal forwards;
-          animation: load 3s normal forwards;
+.vert-container .chat .content5 .skills .skill_item .progress .html {
+  -webkit-animation: html 3s normal forwards;
+          animation: html 3s normal forwards;
 }
 
-.vert-container .chat .content5 .skills .skill_item .progress .p2 {
-  -webkit-animation: load2 3s normal forwards;
-          animation: load2 3s normal forwards;
+.vert-container .chat .content5 .skills .skill_item .progress .css {
+  -webkit-animation: css 3s normal forwards;
+          animation: css 3s normal forwards;
 }
 
-.vert-container .chat .content5 .skills .skill_item .progress .p3 {
-  -webkit-animation: load3 3s normal forwards;
-          animation: load3 3s normal forwards;
+.vert-container .chat .content5 .skills .skill_item .progress .sass {
+  -webkit-animation: sass 3s normal forwards;
+          animation: sass 3s normal forwards;
 }
 
-@-webkit-keyframes load {
+.vert-container .chat .content5 .skills .skill_item .progress .javascript {
+  -webkit-animation: javascript 3s normal forwards;
+          animation: javascript 3s normal forwards;
+}
+
+.vert-container .chat .content5 .skills .skill_item .progress .php {
+  -webkit-animation: php 3s normal forwards;
+          animation: php 3s normal forwards;
+}
+
+.vert-container .chat .content5 .skills .skill_item .progress .jquery {
+  -webkit-animation: jquery 3s normal forwards;
+          animation: jquery 3s normal forwards;
+}
+
+.vert-container .chat .content5 .skills .skill_item .progress .react {
+  -webkit-animation: react 3s normal forwards;
+          animation: react 3s normal forwards;
+}
+
+.vert-container .chat .content5 .skills .skill_item .progress .laravel {
+  -webkit-animation: laravel 3s normal forwards;
+          animation: laravel 3s normal forwards;
+}
+
+@-webkit-keyframes html {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes html {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes css {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes sass {
   0% {
     width: 0;
   }
@@ -1216,7 +1325,7 @@ html {
   }
 }
 
-@keyframes load {
+@keyframes sass {
   0% {
     width: 0;
   }
@@ -1226,7 +1335,7 @@ html {
   }
 }
 
-@-webkit-keyframes load2 {
+@-webkit-keyframes javascript {
   0% {
     width: 0;
   }
@@ -1236,7 +1345,7 @@ html {
   }
 }
 
-@keyframes load2 {
+@keyframes javascript {
   0% {
     width: 0;
   }
@@ -1246,38 +1355,122 @@ html {
   }
 }
 
-@-webkit-keyframes load3 {
+@-webkit-keyframes php {
   0% {
     width: 0;
   }
 
   100% {
-    width: 10%;
+    width: 75%;
   }
 }
 
-@keyframes load3 {
+@keyframes php {
   0% {
     width: 0;
   }
 
   100% {
-    width: 10%;
+    width: 75%;
+  }
+}
+
+@-webkit-keyframes jquery {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes jquery {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+@-webkit-keyframes react {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 30%;
+  }
+}
+
+@keyframes react {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 30%;
+  }
+}
+
+@-webkit-keyframes laravel {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 30%;
+  }
+}
+
+@keyframes laravel {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 30%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .vert-container .chat .content5 {
+    top: 50%;
+  }
+}
+
+@media all and (max-width: 920px) {
+  .vert-container .chat .content5 {
+    top: 50%;
+  }
+}
+
+@media all and (max-width: 769px) {
+  .vert-container .chat .content5 {
+    top: 50%;
   }
 }
 
 @media all and (max-width: 500px) {
   .vert-container .chat .content,
-  .vert-container .chat .content2,
+  .vert-container .chat .content2 {
+    position: static;
+    transform: none;
+    padding: 20px 0px;
+    margin-top: 48%;
+    width: inherit;
+  }
+
   .vert-container .chat .content5 {
     position: static;
     transform: none;
     padding: 20px 0px;
+    top: 48%;
     width: inherit;
   }
 
-  .vert-container .chat .content .skills .skill_item .skill_title,
-  .vert-container .chat .content2 .skills .skill_item .skill_title,
   .vert-container .chat .content5 .skills .skill_item .skill_title {
     width: 33%;
     font-size: 11pt;

@@ -23,6 +23,29 @@ body {
   display: flex;
 }
 
+.container2 {
+  height: 96%;
+  display: flex;
+}
+
+@media all and (max-width: 920px) {
+  .container {
+    height: 105%;
+  }
+}
+
+@media all and (max-width: 769px) {
+  .container {
+    height: 120%;
+  }
+}
+
+@media all and (max-width: 769px) {
+  .container2 {
+    height: 96%;
+  }
+}
+
 .vert-container {
   display: flex;
   flex: 1;
@@ -90,7 +113,7 @@ body {
   margin: 0 -20px 0 -20px;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 769px) {
   .channels .channels-list-voice {
     display: none;
   }
@@ -280,7 +303,8 @@ body {
 }
 
 @media screen and (max-width: 769px) {
-  .container {
+  .container,
+  .container2 {
     flex-direction: column;
   }
 
@@ -288,18 +312,30 @@ body {
     display: flex;
     flex-direction: row;
   }
+}
 
+@media screen and (max-width: 769px) and (max-width: 769px) {
+  .servers {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
   .server {
     position: inherit !important;
     margin-bottom: 0px !important;
   }
+}
 
+@media screen and (max-width: 769px) {
   .servers-collection,
   .server-icon {
     margin-bottom: 0;
     margin-right: 0.5rem;
   }
+}
 
+@media screen and (max-width: 769px) {
   .channels-footer {
     display: none !important;
   }

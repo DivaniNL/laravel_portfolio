@@ -9,7 +9,7 @@
 	<title>Dylan van Nierop</title>
 </head>
     <body>
-<main class="container">
+<main class="container2">
 	<aside class="servers">
 		<div class="servers-collection">
 			<div class="server focusable server-friends unread" role="button" aria-label="Friends unread">
@@ -113,16 +113,12 @@
 			
 			<h1>Contact Me</h1>
 			
-			<h3>If you want to get in touch with me, use the icons down below or contact me by phone or email.</h3>
+			<h3>If you want to get in touch with me, use the icons down below or contact me by email.</h3>
 			<div class="flex row">
 			<table>
 				<tr>
 					<td>Email:&nbsp;&nbsp;</td>
 					<td>dylanvannierop@gmail.com</td>
-				</tr>
-				<tr>
-					<td>Phone:</td>
-					<td>+31 6 53816212</td>
 				</tr>
 			</table>
 			</div>
