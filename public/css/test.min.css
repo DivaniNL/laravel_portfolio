@@ -125,6 +125,84 @@ body {
   font-weight: 500;
 }
 
+.channels .channel {
+  opacity: 0.3;
+  width: 100%;
+}
+
+.channels .channel a {
+  padding: 8px 20px 10px 20px;
+  width: 92% !important;
+}
+
+.channels .channel .button {
+  display: none;
+  opacity: 0.2;
+}
+
+.channels .channel .button:hover,
+.channels .channel .button:focus {
+  opacity: 1;
+}
+
+.channels .channel.active,
+.channels .channel:hover,
+.channels .channel:focus {
+  opacity: 1;
+}
+
+.channels .channel.active .button,
+.channels .channel:hover .button,
+.channels .channel:focus .button {
+  display: flex;
+  margin-right: 5px;
+}
+
+.channels .channel .channel-name {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.channels .channel .button:first-of-type {
+  margin-left: auto;
+  margin-right: 8px;
+}
+
+.channels .channel .button {
+  width: 16px;
+  height: 16px;
+}
+
+.channels .channel-text {
+  position: relative;
+}
+
+.channels .channel-text.active,
+.channels .channel-text:hover,
+.channels .channel-text:focus {
+  background: linear-gradient(to right, #282b30 85%, #2e3136);
+}
+
+.channels .channel-text.active::before,
+.channels .channel-text:hover::before,
+.channels .channel-text:focus::before {
+  content: " ";
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background: #7289DA;
+}
+
+.channels .channel-text:not(.active):focus::before,
+.channels .channel-text:not(.active):hover::before {
+  opacity: 0.25;
+}
+
+.channels .channel-text .channel-name::before {
+  font-weight: 400 !important;
+}
+
 .channels .channels-list {
   flex: 1 1;
   overflow-y: auto;
@@ -277,6 +355,7 @@ body {
 }
 
 .hash-before::before,
+.channels .channel-text .channel-name::before,
 .menu .menu-name::before {
   content: "#";
   margin-right: 2px;
