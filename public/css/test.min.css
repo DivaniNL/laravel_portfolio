@@ -129,6 +129,7 @@ body {
   cursor: pointer;
   display: flex;
   align-items: center;
+  opacity: 0.3;
   width: 100%;
 }
 
@@ -145,19 +146,6 @@ body {
 .channels .channel .button:hover,
 .channels .channel .button:focus {
   opacity: 1;
-}
-
-.channels .channel.active,
-.channels .channel:hover,
-.channels .channel:focus {
-  opacity: 1;
-}
-
-.channels .channel.active .button,
-.channels .channel:hover .button,
-.channels .channel:focus .button {
-  display: flex;
-  margin-right: 5px;
 }
 
 .channels .channel .channel-name {
