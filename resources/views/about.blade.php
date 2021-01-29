@@ -36,12 +36,12 @@
 				<h5>Text Channels</h5><i onclick="test()" id="new" class="fa fa-plus"></i>
 			</header>
 			
-			<ul class="channels-list-text" id="texts"><a href="/home">
+			<ul class="channels-list-text" id="texts">
         		<li class="channel focusable channel-text ">
-					<span class="channel-name">general</span>
+					<a href="/home"><span class="channel-name">general</span></a>
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
-				</li></a>
+				</li>
 				
 				<li class="channel focusable channel-text">
 					<a href="/dashboard"><span class="channel-name">projects</span></a>
@@ -119,7 +119,7 @@
 				During this leap year I did a course to become a fitness trainer. 
 				I also successfully finished the Fitness Master course at the same organisation.
 				<br>
-				<a href="/dashboard">In September 2019 I started studying Webdeveloper at the Graphic Lyceum in Utrecht. I hope to graduate in the summer of 2022.</a></p> 
+				In September 2019 I started studying Webdeveloper at the Graphic Lyceum in Utrecht. I hope to graduate in the summer of 2022.</p> 
 				<p>
 				Besides loving to code websites and webapplications, 
 				I enjoy to spend the rest of my time playing games, getting some excercise in or outside the gym, 
