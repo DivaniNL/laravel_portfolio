@@ -142,11 +142,15 @@ body {
   opacity: 0.2;
 }
 
-@media all and (min-width: 769px) {
-  .channels .channel .button:hover,
-  .channels .channel .button:focus {
-    opacity: 1;
-  }
+.channels .channel .button:hover,
+.channels .channel .button:focus {
+  opacity: 1;
+}
+
+.channels .channel.active,
+.channels .channel:hover,
+.channels .channel:focus {
+  opacity: 1;
 }
 
 .channels .channel.active .button,
@@ -154,18 +158,6 @@ body {
 .channels .channel:focus .button {
   display: block;
   margin-right: 5px;
-}
-
-.channels .channel.active {
-  opacity: 1;
-}
-
-@media all and (min-width: 769px) {
-  .channels .channel.active,
-  .channels .channel:hover,
-  .channels .channel:focus {
-    opacity: 1;
-  }
 }
 
 .channels .channel .channel-name {
@@ -187,21 +179,21 @@ body {
   position: relative;
 }
 
-@media all and (min-width: 769px) {
-  .channels .channel-text:hover,
-  .channels .channel-text:focus {
-    background: linear-gradient(to right, #282b30 85%, #2e3136);
-  }
+.channels .channel-text.active,
+.channels .channel-text:hover,
+.channels .channel-text:focus {
+  background: linear-gradient(to right, #282b30 85%, #2e3136);
+}
 
-  .channels .channel-text:hover::before,
-  .channels .channel-text:focus::before {
-    content: " ";
-    width: 2px;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    background: #7289DA;
-  }
+.channels .channel-text.active::before,
+.channels .channel-text:hover::before,
+.channels .channel-text:focus::before {
+  content: " ";
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background: #7289DA;
 }
 
 .channels .channel-text:not(.active):focus::before,

@@ -170,29 +170,20 @@ html, body
 		{
 			display: none;
 			opacity: 0.2;
-			@media all and(min-width: 769px){
+			
 			&:hover, &:focus
 			{
 				opacity: 1;
 			}
 		}
-		}
 		
 		&.active, &:hover, &:focus
 		{
-			
+			opacity: 1;
 			
 			.button { display: block;     margin-right: 5px; }
 		}
 		
-			&.active{
-				opacity: 1;
-			}
-			@media all and(min-width: 769px){
-				&.active, &:hover, &:focus{
-					opacity: 1;
-				}
-				}
 		.channel-name
 		{
 			font-size: 0.9rem;
@@ -216,9 +207,7 @@ html, body
 	{
 		position: relative;
 		
-		
-		@media all and(min-width: 769px){
-			&:hover, &:focus
+		&.active, &:hover, &:focus
 		{
 			background: linear-gradient(to right, #282b30 85%, #2e3136);
 			
@@ -231,7 +220,6 @@ html, body
 				left: 0;
 				background: #7289DA;
 			}
-		}
 		}
 		
 		&:not(.active) { &:focus::before, &:hover::before { opacity: 0.25; } }
