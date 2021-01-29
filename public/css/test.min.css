@@ -125,57 +125,6 @@ body {
   font-weight: 500;
 }
 
-.channels .channel {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  opacity: 0.3;
-  width: 100%;
-}
-
-.channels .channel a {
-  padding: 8px 20px 10px 20px;
-  width: 92% !important;
-}
-
-.channels .channel .button {
-  display: none;
-  opacity: 0.2;
-}
-
-.channels .channel .button:hover,
-.channels .channel .button:focus {
-  opacity: 1;
-}
-
-.channels .channel.active,
-.channels .channel:hover,
-.channels .channel:focus {
-  opacity: 1;
-}
-
-.channels .channel.active .button,
-.channels .channel:hover .button,
-.channels .channel:focus .button {
-  display: flex;
-  margin-right: 5px;
-}
-
-.channels .channel .channel-name {
-  font-size: 0.9rem;
-  font-weight: 300;
-}
-
-.channels .channel .button:first-of-type {
-  margin-left: auto;
-  margin-right: 8px;
-}
-
-.channels .channel .button {
-  width: 16px;
-  height: 16px;
-}
-
 .channels .channels-list {
   flex: 1 1;
   overflow-y: auto;
