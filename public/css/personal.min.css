@@ -50,8 +50,7 @@ body {
 }
 
 .vert-container {
-  display: block;
-  flex: 1;
+  display: flex;
   flex-direction: column;
 }
 
