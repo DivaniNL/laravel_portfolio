@@ -175,10 +175,6 @@ body {
   height: 16px;
 }
 
-.channels .channel-text {
-  position: relative;
-}
-
 .channels .channel-text.active,
 .channels .channel-text:hover,
 .channels .channel-text:focus {
