@@ -120,6 +120,14 @@ body {
   .channels .channels-list-voice {
     display: none;
   }
+
+  .channels .header-voice {
+    display: none;
+  }
+
+  .channels .channels-list-header {
+    margin-top: 10px;
+  }
 }
 
 .channels .channels-header-name {
