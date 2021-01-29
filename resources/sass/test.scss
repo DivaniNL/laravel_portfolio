@@ -205,6 +205,7 @@ html, body
 	
 	.channel-text
 	{
+		position: relative;
 		
 		&.active, &:hover, &:focus
 		{
@@ -233,8 +234,9 @@ html, body
 	.channels-list
 	{
 		flex: 1 1;
-		display: block;
+		overflow-y: auto;
 		padding: 0 20px;
+		height: 100px;
 		
 		ul
 		{
@@ -251,6 +253,7 @@ html, body
 			letter-spacing: 0.04rem;
 			transition: color 0.2s linear;
 			line-height: 30px;
+			position: relative;
 			h5{
                 float: left;
             }
