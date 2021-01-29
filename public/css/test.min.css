@@ -20,11 +20,31 @@ body {
 }
 
 .container {
+  height: 96%;
   display: flex;
 }
 
 .container2 {
+  height: 96%;
   display: flex;
+}
+
+@media all and (max-width: 920px) {
+  .container {
+    height: 105%;
+  }
+}
+
+@media all and (max-width: 769px) {
+  .container {
+    height: 120%;
+  }
+}
+
+@media all and (max-width: 769px) {
+  .container2 {
+    height: 96%;
+  }
 }
 
 .vert-container {
