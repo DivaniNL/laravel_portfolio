@@ -647,7 +647,6 @@ a {
 @media all and (max-width: 770px) {
   .viewer-footer {
     width: 100%;
-    float: none;
   }
 }
 
