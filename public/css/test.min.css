@@ -208,7 +208,7 @@ body {
 
 .channels .channels-list {
   flex: 1 1;
-  overflow-y: auto;
+  overflow-y: none;
   padding: 0 20px;
 }
 
