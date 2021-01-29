@@ -119,7 +119,7 @@
 				During this leap year I did a course to become a fitness trainer. 
 				I also successfully finished the Fitness Master course at the same organisation.
 				<br>
-				In September 2019 I started studying Webdeveloper at the Graphic Lyceum in Utrecht. I hope to graduate in the summer of 2022.</p> 
+				<a href="/dashboard">In September 2019 I started studying Webdeveloper at the Graphic Lyceum in Utrecht. I hope to graduate in the summer of 2022.</a></p> 
 				<p>
 				Besides loving to code websites and webapplications, 
 				I enjoy to spend the rest of my time playing games, getting some excercise in or outside the gym, 
