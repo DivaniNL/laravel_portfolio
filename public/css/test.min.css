@@ -139,7 +139,6 @@ body {
 }
 
 .channels .channel .button {
-  display: none;
   opacity: 0.2;
 }
 
@@ -152,6 +151,13 @@ body {
 .channels .channel:hover,
 .channels .channel:focus {
   opacity: 1;
+}
+
+.channels .channel.active .button,
+.channels .channel:hover .button,
+.channels .channel:focus .button {
+  opacity: 1;
+  margin-right: 5px;
 }
 
 .channels .channel .channel-name {
