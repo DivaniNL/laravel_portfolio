@@ -38,7 +38,7 @@
 			
 			<ul class="channels-list-text" id="texts">
         		<li class="channel focusable channel-text ">
-					<a href="/home"><span class="channel-name">general</span></a>
+					<span class="channel-name"><a href="/home">general</a></span>
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
