@@ -152,7 +152,9 @@ html, body
 			display: none;
 		}
 		.channels-list-header{
-			margin-top: 10px;
+			margin-top: 10px !important;
+			line-height: 15px !important;
+			height: 20px !important;
 		}
 	}
 
