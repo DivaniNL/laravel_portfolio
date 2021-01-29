@@ -157,9 +157,10 @@ html, body
 	
 	.channel
 	{
-
+		cursor: pointer;
+		display: flex;
+		align-items: center;
 		
-		opacity: 0.3;
 		width: 100%;
 		a{
 			padding: 8px 20px 10px 20px;

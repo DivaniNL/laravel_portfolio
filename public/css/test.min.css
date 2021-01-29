@@ -126,7 +126,9 @@ body {
 }
 
 .channels .channel {
-  opacity: 0.3;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
   width: 100%;
 }
 
