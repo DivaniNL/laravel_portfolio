@@ -1486,7 +1486,8 @@ html {
     position: static;
     transform: none;
     padding: 20px 0px;
-    margin-top: 48%;
+    margin-top: 24%;
+    margin-bottom: 24%;
     width: inherit;
   }
 
