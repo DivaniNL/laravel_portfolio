@@ -247,7 +247,7 @@ body {
 
 @media all and (max-width: 769px) {
   .channels .channels-list {
-    min-height: 250px;
+    height: 250px;
   }
 }
 
