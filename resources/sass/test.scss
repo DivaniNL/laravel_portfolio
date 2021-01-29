@@ -236,7 +236,6 @@ html, body
 		flex: 1 1;
 		overflow-y: auto;
 		padding: 0 20px;
-		height: 100px;
 		
 		ul
 		{
@@ -273,7 +272,11 @@ html, body
 			
 		}
 	}
-	
+	@media all and(max-width: 769px){
+		.channels-list{
+			min-height: 250px;
+		}
+	}
 	.channels-footer
 	{
 		display: flex;

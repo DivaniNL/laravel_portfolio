@@ -209,7 +209,6 @@ body {
   flex: 1 1;
   overflow-y: auto;
   padding: 0 20px;
-  height: 100px;
 }
 
 .channels .channels-list ul {
@@ -244,6 +243,12 @@ body {
 .channels .channels-list .channels-list-header:hover::after,
 .channels .channels-list .channels-list-header:focus::after {
   opacity: 1;
+}
+
+@media all and (max-width: 769px) {
+  .channels .channels-list {
+    min-height: 250px;
+  }
 }
 
 .channels .channels-footer {
