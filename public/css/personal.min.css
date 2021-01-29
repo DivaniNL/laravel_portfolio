@@ -222,7 +222,6 @@ body {
   letter-spacing: 0.04rem;
   transition: color 0.2s linear;
   line-height: 30px;
-  position: relative;
 }
 
 .channels .channels-list .channels-list-header h5 {
