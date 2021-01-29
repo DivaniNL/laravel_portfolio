@@ -71,6 +71,7 @@ html, body
 .vert-container
 {
 	display: flex;
+	flex: 1;
 	flex-direction: column;
 }
 
@@ -232,6 +233,7 @@ html, body
 	
 	.channels-list
 	{
+		flex: 1 1;
 		padding: 0 20px;
 		
 		ul
