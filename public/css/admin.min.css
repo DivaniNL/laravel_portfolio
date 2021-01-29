@@ -501,3 +501,79 @@
   }
 }
 
+.admin-content .sidebar li.mains {
+  padding-bottom: 50px;
+}
+
+@media all and (max-width: 769px) {
+  .admin-content .sidebar li.mains {
+    padding-bottom: 10px !important;
+  }
+}
+
+.admin-content .sidebar li.active {
+  background-color: #0d64a3;
+}
+
+.admin-content .admin-table {
+  margin: 0 auto;
+}
+
+.admin-content .admin-table table {
+  margin-top: 20px;
+}
+
+.admin-content .admin-table table thead {
+  background-color: #105689;
+  color: white;
+}
+
+.admin-content .admin-table table {
+  max-width: none !important;
+}
+
+.admin-content .admin-table table tr td {
+  max-width: 100px;
+  word-wrap: break-word !important;
+}
+
+@media all and (max-width: 768px) {
+  .admin-content .admin-table table tr td {
+    max-width: 40px;
+    padding: 5px 0px !important;
+    font-size: 0.75rem !important;
+  }
+
+  .admin-content .admin-table table tr td a {
+    font-size: 0.75rem !important;
+    padding: 5px !important;
+    width: 100%;
+  }
+
+  .admin-content .admin-table table tr td form {
+    width: 100%;
+  }
+
+  .admin-content .admin-table table tr td form button {
+    font-size: 0.75rem !important;
+    padding: 5px !important;
+    width: 100%;
+  }
+
+  .admin-content .admin-table table tr td:nth-of-type(1) {
+    padding: 5px 0px 5px 10px !important;
+  }
+}
+
+.admin-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  line-height: 50px;
+  width: 100%;
+  background-color: #105689;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+

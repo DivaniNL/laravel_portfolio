@@ -135,68 +135,7 @@
             }
         }
     }
-    .admin-content{
-        .sidebar{
-            li.mains{
-                padding-bottom: 50px;
-            }
-            li.active{
-                background-color: $admin2;
-            }
-        }
-        .admin-table{
-            margin: 0 auto;
-            table{
-                margin-top: 20px;
-                thead{
-                    background-color: $admin1;
-                    color: white;
-                }
-            }table{
-                max-width: none !important;
-                tr{
-                    td{
-                        max-width: 100px;
-                        word-wrap: break-word !important;
-                    }
-                    @media all and(max-width: 768px){
-                        td{
-                            max-width: 40px;
-                            padding: 5px 0px !important;
-                            font-size: 0.75rem !important;
-                            a{
-                                font-size: 0.75rem !important;
-                                padding: 5px !important;
-                                width: 100%;
-                            }
-                            form{
-                                width: 100%;
-                                button{
-                                    font-size: 0.75rem !important;
-                                    padding: 5px !important;
-                                    width: 100%;
-                                }
-                            }
-                            &:nth-of-type(1){
-                                padding: 5px 0px 5px 10px !important;
-                            }
-                        }
-                    }
-                }
-                }
-        }
-    }
-    .admin-footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        line-height: 50px;
-        width: 100%;
-        background-color: $admin1;
-        height: 50px;
-        color: white;
-        text-align: center;
-    }
+    
 
 }
 
