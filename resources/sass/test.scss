@@ -207,7 +207,7 @@ html, body
 	{
 		position: relative;
 		
-		&.active, &:hover, &:focus
+		&.active
 		{
 			background: linear-gradient(to right, #282b30 85%, #2e3136);
 			
@@ -220,6 +220,22 @@ html, body
 				left: 0;
 				background: #7289DA;
 			}
+		}
+		@media all and(min-width: 769px){
+			&:hover, &:focus
+		{
+			background: linear-gradient(to right, #282b30 85%, #2e3136);
+			
+			&::before
+			{
+				content: " ";
+				width: 2px;
+				height: 100%;
+				position: absolute;
+				left: 0;
+				background: #7289DA;
+			}
+		}
 		}
 		
 		&:not(.active) { &:focus::before, &:hover::before { opacity: 0.25; } }

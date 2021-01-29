@@ -5,6 +5,7 @@
 	<link href="{{url('/css/test.min.css')}}" rel="stylesheet"/>    
 	<link href="{{url('/css/personal.min.css')}}" rel="stylesheet"/>   
 	<link rel="icon" type="image/png" href="{{url('/img/divani.png')}}"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Dylan van Nierop</title>
 </head>
     <body>
