@@ -178,36 +178,6 @@ body {
   height: 16px;
 }
 
-.channels .channel-text {
-  position: relative;
-}
-
-.channels .channel-text.active,
-.channels .channel-text:hover,
-.channels .channel-text:focus {
-  background: linear-gradient(to right, #282b30 85%, #2e3136);
-}
-
-.channels .channel-text.active::before,
-.channels .channel-text:hover::before,
-.channels .channel-text:focus::before {
-  content: " ";
-  width: 2px;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  background: #7289DA;
-}
-
-.channels .channel-text:not(.active):focus::before,
-.channels .channel-text:not(.active):hover::before {
-  opacity: 0.25;
-}
-
-.channels .channel-text .channel-name::before {
-  font-weight: 400 !important;
-}
-
 .channels .channels-list {
   flex: 1 1;
   overflow-y: auto;
@@ -360,7 +330,6 @@ body {
 }
 
 .hash-before::before,
-.channels .channel-text .channel-name::before,
 .menu .menu-name::before {
   content: "#";
   margin-right: 2px;
