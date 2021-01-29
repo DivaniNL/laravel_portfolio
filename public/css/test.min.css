@@ -148,6 +148,12 @@ body {
   opacity: 1;
 }
 
+.channels .channel.active,
+.channels .channel:hover,
+.channels .channel:focus {
+  opacity: 1;
+}
+
 .channels .channel .channel-name {
   font-size: 0.9rem;
   font-weight: 300;

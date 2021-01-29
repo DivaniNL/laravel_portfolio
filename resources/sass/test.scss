@@ -178,7 +178,12 @@ html, body
 			}
 		}
 		
-		
+		&.active, &:hover, &:focus
+		{
+			opacity: 1;
+			
+
+		}
 		
 		.channel-name
 		{
