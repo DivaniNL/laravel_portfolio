@@ -47,6 +47,13 @@ body {
   }
 }
 
+@media all and (max-width: 400px) {
+  .container2,
+  .container {
+    height: auto;
+  }
+}
+
 .vert-container {
   display: flex;
   flex: 1;
@@ -386,6 +393,12 @@ body {
   padding-right: 5px;
 }
 
+@media all and (max-width: 400px) {
+  .chat {
+    position: relative;
+  }
+}
+
 .server {
   width: 50px;
   height: 50px;
@@ -646,7 +659,6 @@ a {
   .viewer-footer {
     width: 100%;
     float: none;
-    position: static;
   }
 }
 

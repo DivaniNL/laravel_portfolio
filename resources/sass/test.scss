@@ -68,6 +68,11 @@ html, body
 		height: 96%;
 	}
 }
+@media all and(max-width: 400px){
+	.container2, .container{
+		height: auto;
+	}
+}
 .vert-container
 {
 	display: flex;
@@ -407,6 +412,12 @@ html, body
 	padding-right: 5px;
 
 }
+@media all and(max-width: 400px){
+
+	.chat{
+		position: relative;
+	}
+}
 
 // SERVER
 .server
@@ -628,6 +639,5 @@ a{
 	.viewer-footer{
 	width: 100%;
 	float: none;
-	position: static;
 	}
 }
