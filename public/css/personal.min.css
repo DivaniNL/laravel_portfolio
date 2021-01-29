@@ -189,19 +189,6 @@ body {
   position: relative;
 }
 
-.channels .channel-text.active {
-  background: linear-gradient(to right, #282b30 85%, #2e3136);
-}
-
-.channels .channel-text.active::before {
-  content: " ";
-  width: 2px;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  background: #7289DA;
-}
-
 @media all and (min-width: 769px) {
   .channels .channel-text:hover,
   .channels .channel-text:focus {
