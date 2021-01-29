@@ -61,7 +61,7 @@
 				</li>
 			</ul>
 			
-			<header class="channels-list-header focusable">
+			<header class="channels-list-header header-voice focusable">
 				<h5>Voice Channels</h5><i onclick="test2()" id="new2" class="fa fa-plus"></i>
             </header>
 
