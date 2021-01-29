@@ -36,12 +36,12 @@
 				<h5>Text Channels</h5><i onclick="test()" id="new" class="fa fa-plus"></i>
 			</header>
 			
-			<ul class="channels-list-text" id="texts">
+			<ul class="channels-list-text" id="texts"><a href="/home">
         		<li class="channel focusable channel-text ">
-					<span class="channel-name"><a href="/home">general</a></span>
+					<span class="channel-name">general</span>
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
-				</li>
+				</li></a>
 				
 				<li class="channel focusable channel-text">
 					<a href="/dashboard"><span class="channel-name">projects</span></a>
