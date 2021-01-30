@@ -6,7 +6,12 @@
 @import 'test';
 
 // Bootstrap
-@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@font-face {
+	font-family: 'FontAwesome';
+	font-style: normal;
+	font-display: swap;
+	src: url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('woff2');
+  }
 *, html {padding:0; margin:0;}
 .project_images{
     width: 100%;

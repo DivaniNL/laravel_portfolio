@@ -1,9 +1,15 @@
 @font-face {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 700;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-display: swap;
+  src: url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("woff2");
 }
 
 * {
@@ -134,6 +140,7 @@ body {
 
 .channels .channels-header-name {
   font-size: 1rem;
+  font-weight: bolder;
 }
 
 .channels .channel {

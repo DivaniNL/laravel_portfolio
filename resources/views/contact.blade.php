@@ -4,10 +4,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 	<link href="{{url('/css/test.min.css')}}" rel="stylesheet"/>    
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" 
+content="This is the personal Portfolio-website of Divani-Developments">
 	<link href="{{url('/css/personal.min.css')}}" rel="stylesheet"/>   
 	<link rel="icon" type="image/png" href="{{url('/img/divani.png')}}"> 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css" integrity="sha512-shT5e46zNSD6lt4dlJHb+7LoUko9QZXTGlmWWx0qjI9UhQrElRb+Q5DM7SVte9G9ZNmovz2qIaV7IWv0xQkBkw==" crossorigin="anonymous" />
-	<title>Dylan van Nierop</title>
+	<title>Divani-Developments</title>
 </head>
     <body>
 <main class="container2">
@@ -28,7 +30,7 @@
 	
 	<aside class="channels">
 		<header class="channels-header focusable">
-			<h1  class="channels-header-name">Dylan van Nierop</h1>
+			<h1  class="channels-header-name">Divani-Developments</h1>
 			<svg aria-label="Dropdown" class="channels-header-dropdown"><use xlink:href="#icon-dropdown" /></svg>
 		</header>
 				
@@ -55,7 +57,7 @@
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
                 </li>
                 <li class="channel focusable channel-text active">
-				<a><span class="channel-name">contact</span></a>
+				<a href="#"><span class="channel-name">contact</span></a>
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
@@ -83,7 +85,7 @@
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
                 </li>
                 <li class="channel focusable channel-text active">
-				<a><span class="channel-name">contact</span></a>
+				<a href="#"><span class="channel-name">contact</span></a>
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
@@ -138,7 +140,7 @@
 	</div>
 </main>
 <div class="viewer-footer">
-<p>Copyright &copy; 2020 - <?php echo date('Y')?> Dylan van Nierop</p>
+<p>Copyright &copy; 2020 - <?php echo date('Y')?> Divani-Developments</p>
 </div>
 
 <!-- ICONS -->

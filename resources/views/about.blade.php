@@ -50,7 +50,7 @@ maximum-scale=1.0, user-scalable=no" />
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
             </li>
            <li class="channel focusable channel-text active">
-					<a><span class="channel-name">about</span></a>
+					<a href="#"><span class="channel-name">about</span></a>
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
@@ -78,7 +78,7 @@ maximum-scale=1.0, user-scalable=no" />
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
             </li>
            <li class="channel focusable channel-text active">
-					<a><span class="channel-name">about</span></a>
+					<a href="#"><span class="channel-name">about</span></a>
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
@@ -190,7 +190,7 @@ maximum-scale=1.0, user-scalable=no" />
 	</div>
 </main>
 <div class="viewer-footer">
-    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Dylan van Nierop</p>
+    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Divani-Developments</p>
 </div>
 
 <!-- ICONS -->

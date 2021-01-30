@@ -78,7 +78,7 @@
     </div>
     </div>
     <div class="admin-footer">
-    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Dylan van Nierop. All Rights Reserved </p>
+    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Divani-Developments. All Rights Reserved </p>
 </div>
 </div>
 @endsection

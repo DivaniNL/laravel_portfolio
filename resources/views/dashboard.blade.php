@@ -5,7 +5,11 @@
     <link href="{{url('/css/test.min.css')}}" rel="stylesheet"/>    
 	<link href="{{url('/css/personal.min.css')}}" rel="stylesheet"/> 
 	<link rel="icon" type="image/png" href="{{url('/img/divani.png')}}">
+	<meta name="description" 
+content="This is the personal Portfolio-website of Divani-Developments">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" 
+content="This is the personal Portfolio-website of Divani-Developments">
 	<title>Some of my Work</title>
 </head>
     <body>
@@ -27,7 +31,7 @@
 	
 	<aside class="channels">
 		<header class="channels-header focusable">
-			<h3 class="channels-header-name">Dylan van Nierop</h3>
+			<h3 class="channels-header-name">Divani-Developments</h3>
 			<svg aria-label="Dropdown" class="channels-header-dropdown"><use xlink:href="#icon-dropdown" /></svg>
 		</header>
 				
@@ -44,7 +48,7 @@
 			</li>
 				
 				<li class="channel focusable channel-text active">
-					<a><span class="channel-name">projects</span></a>
+					<a href="#"><span class="channel-name">projects</span></a>
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
@@ -72,7 +76,7 @@
 				</li>
 				
 				<li class="channel focusable active channel-text active">
-					<a><span class="channel-name">projects</span></a>
+					<a href="#"><span class="channel-name">projects</span></a>
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
@@ -125,7 +129,7 @@
 	</div>
 </main>
 <div class="viewer-footer">
-    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Dylan van Nierop</p>
+    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Divani-Developments</p>
 </div>
 
 <!-- ICONS -->

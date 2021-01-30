@@ -26,9 +26,9 @@
             </li>
             <li class='mains'> <a href="#" data-toggle="collapse" data-target="#products" class="collapsed active" > <i class="fa fa-bar-chart-o"></i> <span class="nav-label">Admin-Pages</span> <span class="fa fa-chevron-left pull-right"></span> </a>
             <ul class="sub-menu collapse" id="products">
-              <li class=""><a href="{{ route('werken.index')}}">Projects</a></li>
+              <li class="#"><a href="{{ route('werken.index')}}">Projects</a></li>
               <li class="active"><a href="/users/index">Admins</a></li>
-              <li><a href="">Statistics</a></li>
+              <li><a href="#">Statistics</a></li>
             
             </ul>
           </li>
@@ -74,7 +74,7 @@
         </div>
     </div>
     <div class="admin-footer">
-    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Dylan van Nierop. All Rights Reserved </p>
+    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Divani-Developments. All Rights Reserved </p>
 </div>
 </div>
 @endsection
