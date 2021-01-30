@@ -9,7 +9,7 @@
 	<meta name="description" 
 content="This is the personal Portfolio-website of Divani-Development">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Dylan van Nierop</title>
+	<title>Divani-Development</title>
 </head>
     <body>
 <main class="container2">
