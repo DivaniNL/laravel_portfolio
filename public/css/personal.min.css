@@ -753,11 +753,6 @@ html {
     margin-left: 1%;
     margin-right: 1%;
   }
-
-  .project_images li a .image_project {
-    width: 200px;
-    height: 200px;
-  }
 }
 
 @media all and (min-width: 1600px) {
