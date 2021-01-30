@@ -749,7 +749,7 @@ html {
 
 @media all and (min-width: 769px) and (max-width: 999px) {
   .project_images li {
-    width: 90%;
+    width: 45%;
     margin-left: 1.5%;
     margin-right: 1.5%;
   }
