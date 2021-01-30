@@ -1503,9 +1503,9 @@ body {
   .vert-container .chat .content,
   .vert-container .chat .content2 {
     padding: 20px 0px;
-    margin-top: -12%;
+    margin-top: 12%;
+    margin-bottom: 12%;
     width: 97%;
-    display: block;
   }
 
   .vert-container .chat .content5 {

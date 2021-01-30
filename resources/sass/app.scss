@@ -545,9 +545,9 @@ body{	font-family: "Roboto";}
         @media all and(max-width: 500px){
             .content, .content2{
                 padding: 20px 0px;
-                margin-top: -12%;
+                margin-top: 12%;
+                margin-bottom: 12%;
                 width: 97%;
-                display: block;
             }
         .content5{
             position: static;
