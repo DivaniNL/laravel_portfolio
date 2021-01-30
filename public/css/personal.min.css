@@ -1503,6 +1503,7 @@ body {
   .vert-container .chat .content,
   .vert-container .chat .content2 {
     padding: 20px 0px;
+    margin-top: -12%;
     width: 97%;
   }
 
