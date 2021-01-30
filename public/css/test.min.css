@@ -157,17 +157,19 @@ body {
   opacity: 1;
 }
 
-.channels .channel.active,
-.channels .channel:hover,
-.channels .channel:focus {
-  opacity: 1;
-}
+@media all and (min-width: 480px) {
+  .channels .channel.active,
+  .channels .channel:hover,
+  .channels .channel:focus {
+    opacity: 1;
+  }
 
-.channels .channel.active .button,
-.channels .channel:hover .button,
-.channels .channel:focus .button {
-  opacity: 1;
-  margin-right: 5px;
+  .channels .channel.active .button,
+  .channels .channel:hover .button,
+  .channels .channel:focus .button {
+    opacity: 1;
+    margin-right: 5px;
+  }
 }
 
 .channels .channel .channel-name {
@@ -189,20 +191,22 @@ body {
   position: relative;
 }
 
-.channels .channel-text.active,
-.channels .channel-text:hover,
-.channels .channel-text:focus {
-  background: linear-gradient(to right, #282b30 85%, #2e3136);
-}
+@media all and (min-width: 480px) {
+  .channels .channel-text.active,
+  .channels .channel-text:hover,
+  .channels .channel-text:focus {
+    background: linear-gradient(to right, #282b30 85%, #2e3136);
+  }
 
-.channels .channel-text.active::before,
-.channels .channel-text:hover::before,
-.channels .channel-text:focus::before {
-  content: " ";
-  width: 2px;
-  position: absolute;
-  left: 0;
-  background: #7289DA;
+  .channels .channel-text.active::before,
+  .channels .channel-text:hover::before,
+  .channels .channel-text:focus::before {
+    content: " ";
+    width: 2px;
+    position: absolute;
+    left: 0;
+    background: #7289DA;
+  }
 }
 
 .channels .channel-text:not(.active):focus::before,

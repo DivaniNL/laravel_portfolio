@@ -197,14 +197,14 @@ html, body
 				opacity: 1;
 			}
 		}
-		
+		@media all and(min-width: 480px){
 		&.active, &:hover, &:focus
 		{
 			opacity: 1;
 			
 			.button { opacity: 1;     margin-right: 5px; }
 		}
-		
+	}
 		.channel-name
 		{
 			font-size: 0.9rem;
@@ -227,7 +227,7 @@ html, body
 	.channel-text
 	{
 		position: relative;
-		
+		@media all and(min-width: 480px){
 		&.active, &:hover, &:focus
 		{
 			background: linear-gradient(to right, #282b30 85%, #2e3136);
@@ -242,7 +242,7 @@ html, body
 				background: #7289DA;
 			}
 		}
-		
+	}
 		&:not(.active) { &:focus::before, &:hover::before { opacity: 0.25; } }
 		
 		.channel-name
