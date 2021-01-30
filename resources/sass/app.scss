@@ -40,6 +40,7 @@
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
         transition: ease all .5s;
+        padding: 10px;
         
         a{
             .image_project{
@@ -79,9 +80,9 @@
             }
         }
     }
-    @media all and(min-width: 1000px){
+    @media all and(min-width: 1000px) and(max-width: 1278px){
         li{
-            width: 30%;
+            width: 48%;
             margin-left: 1%;
             margin-right: 1%;
             a{
