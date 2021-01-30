@@ -6,10 +6,13 @@
 	<link href="{{url('/css/personal.min.css')}}" rel="stylesheet"/>  
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,
 maximum-scale=1.0, user-scalable=no" />
+<meta name="description" 
+content="This is the personal Portfolio-website of Divani-Developments">
 	<link rel="icon" type="image/png" href="{{url('/img/divani.png')}}">  
 	<title>About me</title>
 </head>
     <body>
+
 	<main class="container aboutcontainer">
 	<aside class="servers">
 		<div class="servers-collection">
@@ -26,13 +29,13 @@ maximum-scale=1.0, user-scalable=no" />
 		</div>
 	</aside>
 	
-	<aside class="channels">
-		<header class="channels-header focusable">
-			<h3 class="channels-header-name">Dylan van Nierop</h3>
+	<aside class="channels" id="channels">
+		<header id="hamburgerMenu" class="channels-header focusable">
+			<h3 class="channels-header-name">Divani-Developments</h3>
 			<svg aria-label="Dropdown" class="channels-header-dropdown"><use xlink:href="#icon-dropdown" /></svg>
 		</header>
 				
-		<section class="channels-list">
+		<section class="channels-list" id="channels-list">
 			<header class="channels-list-header focusable">
 				<h1>Text Channels</h1>
 			</header>
@@ -216,6 +219,12 @@ $(".focusable, .button").forEach(el => {
 	el.addEventListener("mousedown", e => e.preventDefault());
 	el.setAttribute("tabindex", "0");
 });
+document.getElementById("hamburgerMenu").addEventListener("click", hamburgerMenu);
+function hamburgerMenu(){
+	console.log("test");
+	document.getElementById("channels").classList.toggle("showchannels");
+	document.getElementById("channels-list").classList.toggle("show");
+}
 
 $(".server").forEach(el => {
 	el.addEventListener("click", () => {

@@ -87,6 +87,18 @@ body {
   transition: background 0.15s ease;
 }
 
+.channels .channels-header #hamburgerMenu {
+  width: 100%;
+}
+
+.channels .channels-header #hamburgerMenu h3 {
+  float: left;
+}
+
+.channels .channels-header #hamburgerMenu svg {
+  float: right;
+}
+
 .channels .channels-header .channels-header-dropdown {
   width: 18px;
   height: 18px;
@@ -134,6 +146,14 @@ body {
 .channels .channels-header-name {
   font-size: 1rem;
   font-weight: bolder;
+}
+
+@media all and (max-width: 769px) {
+  .channels .channels-header-name {
+    margin-left: auto;
+    text-align: center;
+    padding-left: 4%;
+  }
 }
 
 .channels .channel {
@@ -259,6 +279,16 @@ body {
   opacity: 1;
 }
 
+@media all and (max-width: 769px) {
+  .channels .channels-list {
+    display: none;
+  }
+
+  .channels .show {
+    display: block !important;
+  }
+}
+
 .channels .channels-footer {
   display: flex;
   align-items: center;
@@ -314,6 +344,16 @@ body {
 .channels .channels-footer .tag {
   color: rgba(255, 255, 255, 0.45);
   font-size: 0.7rem;
+}
+
+@media screen and (max-width: 769px) {
+  .channels {
+    flex: initial;
+  }
+
+  .showchannels {
+    flex: 0 0 240px;
+  }
 }
 
 @media screen and (max-width: 769px) {

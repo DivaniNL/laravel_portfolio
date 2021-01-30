@@ -28,13 +28,13 @@ content="This is the personal Portfolio-website of Divani-Developments">
 		</div>
 	</aside>
 	
-	<aside class="channels">
-		<header class="channels-header focusable">
-			<h1  class="channels-header-name">Divani-Developments</h1>
+	<aside class="channels" id="channels">
+	<header id="hamburgerMenu" class="channels-header focusable">
+			<h3 class="channels-header-name">Divani-Developments</h3>
 			<svg aria-label="Dropdown" class="channels-header-dropdown"><use xlink:href="#icon-dropdown" /></svg>
 		</header>
 				
-		<section class="channels-list">
+		<section class="channels-list" id="channels-list">
 			<header class="channels-list-header focusable">
 				<h1>Text Channels</h1>
 			</header>
@@ -179,7 +179,12 @@ $(".server").forEach(el => {
     });
     
 })
-
+document.getElementById("hamburgerMenu").addEventListener("click", hamburgerMenu);
+function hamburgerMenu(){
+	console.log("test");
+	document.getElementById("channels").classList.toggle("showchannels");
+	document.getElementById("channels-list").classList.toggle("show");
+}
 $(".channel-text").forEach(el => {
 	el.addEventListener("click", () => {
 		$(".channel-text.active")[0].classList.remove("active");
