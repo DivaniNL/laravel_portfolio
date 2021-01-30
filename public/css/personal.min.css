@@ -25,13 +25,14 @@ body {
   height: 100%;
   background-color: #1E2124 !important;
   color: #FFF;
-  font-size: 16px;
+  font-size: 15px;
   font-family: "Roboto", sans-serif;
 }
 
 .container {
   min-height: calc(100vh - 35px);
   display: flex;
+  font-size: 15px;
 }
 
 .container2 {
@@ -967,11 +968,7 @@ html {
   }
 }
 
-.vert-container .chat .content a {
-  padding: 35px 0px;
-}
-
-.vert-container .chat .content a .buttoneffect {
+.vert-container .chat .content .buttoneffect {
   border-radius: 4px;
   background-color: #2E3136;
   border: 1px solid white;
@@ -985,7 +982,7 @@ html {
   margin: 45px 5px 5px 5px;
 }
 
-.vert-container .chat .content a .buttoneffect span {
+.vert-container .chat .content .buttoneffect span {
   cursor: pointer;
   display: inline-block;
   position: relative;
@@ -994,7 +991,7 @@ html {
   color: white;
 }
 
-.vert-container .chat .content a .buttoneffect span:after {
+.vert-container .chat .content .buttoneffect span:after {
   color: white;
   font-family: "FontAwesome";
   content: "\F061";
@@ -1005,7 +1002,7 @@ html {
   transition: 0.5s;
 }
 
-.vert-container .chat .content a .buttoneffect:hover {
+.vert-container .chat .content .buttoneffect:hover {
   background-color: orange;
   color: white;
   padding: 25px 10px;
@@ -1013,12 +1010,12 @@ html {
   width: 300px;
 }
 
-.vert-container .chat .content a .buttoneffect:hover span {
+.vert-container .chat .content .buttoneffect:hover span {
   transition: 0.5s;
   color: white;
 }
 
-.vert-container .chat .content a .buttoneffect:hover span:after {
+.vert-container .chat .content .buttoneffect:hover span:after {
   opacity: 1;
   margin-top: 5px;
   color: white;

@@ -28,7 +28,7 @@
 	
 	<aside class="channels">
 		<header class="channels-header focusable">
-			<h3  class="channels-header-name">Dylan van Nierop</h3>
+			<h1  class="channels-header-name">Dylan van Nierop</h1>
 			<svg aria-label="Dropdown" class="channels-header-dropdown"><use xlink:href="#icon-dropdown" /></svg>
 		</header>
 				
@@ -118,6 +118,7 @@
 			<div class="flex row">
 					<div>Email:&nbsp;&nbsp;</div>
 					<div>dylanvannierop@gmail.com</div>
+
 			</div>
 
 			
