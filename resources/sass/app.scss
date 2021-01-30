@@ -69,8 +69,7 @@
     @media all and(max-width: 400px){
         li{
             width: 90%;
-            margin-left: 1.5%;
-            margin-right: 1.5%;
+            margin: 0 auto;
             a{
                 .image_project{
                     width: 100%;
@@ -82,9 +81,8 @@
     }
     @media all and(min-width: 769px) and(max-width: 999px){
         li{
-            width: 45%;
-            margin-left: 1.5%;
-            margin-right: 1.5%;
+            width: 75%;
+            margin: 0 auto;
             a{
                 .image_project{
                     width: 100%;
