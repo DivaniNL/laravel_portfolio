@@ -34,6 +34,7 @@
         display: inline-block;
         margin-left: 5%;
         margin-right: 2%;
+
         min-height: 300px;
         min-width: 300px;
         animation: project-hover2 0.5s;
@@ -66,10 +67,25 @@
             
         }
     }
-    @media all and(max-width: 768px){
+    @media all and(max-width: 400px){
         li{
             width: 90%;
             margin: 0 auto;
+            margin-bottom: 2vh;
+            a{
+                .image_project{
+                    width: 100%;
+                    height: auto;
+                    transform: none;
+                }
+            }
+        }
+    }
+    @media all and(max-width: 768px){
+        li{
+            width: 75%;
+            margin: 0 auto;
+            margin-bottom: 2vh;
             a{
                 .image_project{
                     width: 100%;
@@ -83,6 +99,7 @@
         li{
             width: 75%;
             margin: 0 auto;
+            margin-bottom: 2vh;
             a{
                 .image_project{
                     width: 100%;

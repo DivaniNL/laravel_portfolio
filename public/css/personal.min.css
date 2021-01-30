@@ -733,10 +733,25 @@ html {
           animation-fill-mode: forwards;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 400px) {
   .project_images li {
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 2vh;
+  }
+
+  .project_images li a .image_project {
+    width: 100%;
+    height: auto;
+    transform: none;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .project_images li {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 2vh;
   }
 
   .project_images li a .image_project {
@@ -750,6 +765,7 @@ html {
   .project_images li {
     width: 75%;
     margin: 0 auto;
+    margin-bottom: 2vh;
   }
 
   .project_images li a .image_project {
