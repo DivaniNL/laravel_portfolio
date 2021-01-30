@@ -29,7 +29,7 @@ body {
   height: 100%;
   background-color: #1E2124 !important;
   color: #FFF;
-  font-size: 15px;
+  font-size: 16px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -363,10 +363,9 @@ body {
 
 .menu {
   flex: 0 0 57px;
-  padding: 0 20px 0 20px;
+  padding: 25px 20px;
   background: #36393E;
   border-bottom: 1px solid #303337;
-  display: flex;
   align-items: center;
 }
 
@@ -374,6 +373,13 @@ body {
   font-weight: bold;
   font-size: 1.3rem;
   letter-spacing: 0.05rem;
+}
+
+@media all and (max-width: 769px) {
+  .menu .menu-name {
+    text-align: center;
+    font-size: 1.6rem;
+  }
 }
 
 .hash-before::before,
