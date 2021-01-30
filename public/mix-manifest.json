@@ -1,6 +1,6 @@
 {
     "/js/app.js": "/js/app.js",
+    "/css/admin.min.css": "/css/admin.min.css",
     "/css/personal.min.css": "/css/personal.min.css",
-    "/css/test.min.css": "/css/test.min.css",
-    "/css/admin.min.css": "/css/admin.min.css"
+    "/css/test.min.css": "/css/test.min.css"
 }

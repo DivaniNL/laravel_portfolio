@@ -10,7 +10,7 @@ maximum-scale=1.0, user-scalable=no" />
 	<title>About me</title>
 </head>
     <body>
-	<main class="container">
+	<main class="container aboutcontainer">
 	<aside class="servers">
 		<div class="servers-collection">
 			<div class="server focusable server-friends unread" role="button" aria-label="Friends unread">
@@ -34,7 +34,7 @@ maximum-scale=1.0, user-scalable=no" />
 				
 		<section class="channels-list">
 			<header class="channels-list-header focusable">
-				<h5>Text Channels</h5><i onclick="test()" id="new" class="fa fa-plus"></i>
+				<h5>Text Channels</h5>
 			</header>
 			
 			<ul class="channels-list-text" id="texts">
@@ -62,7 +62,7 @@ maximum-scale=1.0, user-scalable=no" />
 			</ul>
 			
 			<header class="channels-list-header header-voice focusable">
-				<h5>Voice Channels</h5><i onclick="test2()" id="new2" class="fa fa-plus"></i>
+				<h5>Voice Channels</h5>
             </header>
 
             <ul class="channels-list-voice" id="voices">
@@ -244,53 +244,7 @@ $(".channels-header")[0].addEventListener("click", e => {
 	const focused = document.activeElement === e.target;
 	focused ? e.target.blur() : e.target.focus();
 });
-function test(){
-    let channel = document.createElement('li');
-    channel.classList.add("channel");
-    channel.classList.add("focusable");
-    channel.classList.add("channel-text");
-    document.getElementById('texts').appendChild(channel);
-	
-	let a = document.createElement('a');
 
-    channel.appendChild(a);
-
-
-    let span = document.createElement('span');
-    span.classList.add("channel-name");
-    span.innerHTML = "You have found an Easter Egg";
-    a.appendChild(span);
-
-    let button1 = document.createElement('button');
-    button1.classList.add('button');
-    button1.role = "button";
-    button1.setAttribute('aria-label', 'Invite');
-    channel.appendChild(button1);
-
-}
-function test2(){
-    let channel = document.createElement('li');
-    channel.classList.add("channel");
-    channel.classList.add("focusable");
-    channel.classList.add("channel-text");
-    document.getElementById('voices').appendChild(channel);
-	
-	let a = document.createElement('a');
-
-    channel.appendChild(a);
-
-    let span = document.createElement('span');
-    span.classList.add("channel-name");
-    span.innerHTML = "You have found an Easter Egg";
-    a.appendChild(span);
-
-    let button1 = document.createElement('button');
-    button1.classList.add('button');
-    button1.role = "button";
-    button1.setAttribute('aria-label', 'Invite');
-    channel.appendChild(button1);
-
-}
 
 </script>
 </body>
