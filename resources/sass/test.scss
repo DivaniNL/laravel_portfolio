@@ -681,3 +681,27 @@ a{
 	float: none;
 	}
 }
+.mail-me{
+	align-items: center;
+	display: flex;
+	font-weight: 800;
+    flex-direction: column;
+    justify-content: center;
+}
+@media all and(min-width :480px){
+.mail-me{
+	&:hover{
+		animation: mail-link 1s;
+		animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+	}
+	@keyframes mail-link{
+		0%{
+			color: white;
+		}
+		100%{
+			color: orange;
+		}
+	}
+}
+}

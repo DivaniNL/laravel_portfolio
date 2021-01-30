@@ -702,6 +702,45 @@ a {
   }
 }
 
+.mail-me {
+  align-items: center;
+  display: flex;
+  font-weight: 800;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media all and (min-width: 480px) {
+  .mail-me:hover {
+    -webkit-animation: mail-link 1s;
+            animation: mail-link 1s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+
+@-webkit-keyframes mail-link {
+    0% {
+      color: white;
+    }
+
+    100% {
+      color: orange;
+    }
+}
+
+@keyframes mail-link {
+    0% {
+      color: white;
+    }
+
+    100% {
+      color: orange;
+    }
+}
+}
+
 @font-face {
   font-family: "FontAwesome";
   src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/font/fontawesome-webfont.eot?v=3.0.1");
@@ -1676,54 +1715,61 @@ body {
 .icon {
   background: #1E2124;
   cursor: pointer;
-  font-size: 18pt;
-  height: 55px;
+  font-size: 22pt;
+  height: 65px;
   margin: 0 15px;
   overflow: hidden;
   position: relative;
   text-align: center;
-  width: 55px;
+  width: 65px;
+  color: orange;
 }
 
-.out {
-  -webkit-animation: out 0.3s;
-          animation: out 0.3s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
+@media all and (min-width: 480px) {
+  .out {
+    -webkit-animation: out 0.3s;
+            animation: out 0.3s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
 
-.in {
-  -webkit-animation: in 0.5s;
-          animation: in 0.5s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
+  .in {
+    -webkit-animation: in 0.5s;
+            animation: in 0.5s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
 
 @-webkit-keyframes out {
-  0% {
-    background-color: orange;
-  }
+    0% {
+      background-color: orange;
+      color: #1E2124;
+    }
 }
 
 @keyframes out {
-  0% {
-    background-color: orange;
-  }
+    0% {
+      background-color: orange;
+      color: #1E2124;
+    }
 }
 
 @-webkit-keyframes in {
-  100% {
-    background-color: orange;
-  }
+    100% {
+      background-color: orange;
+      color: #1E2124;
+    }
 }
 
 @keyframes in {
-  100% {
-    background-color: orange;
-  }
+    100% {
+      background-color: orange;
+      color: #1E2124;
+    }
+}
 }
 

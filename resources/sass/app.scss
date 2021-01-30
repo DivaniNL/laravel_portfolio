@@ -635,16 +635,17 @@ body{	font-family: "Roboto";}
 .icon{
     background: #1E2124;
     cursor: pointer;
-    font-size: 18pt;
-    height: 55px;
+    font-size: 22pt;
+    height: 65px;
     margin: 0 15px;
     overflow: hidden;
     position: relative;
     text-align: center;
-    width: 55px;
-   
-    
+    width: 65px;
+color: orange;
+  
 }
+@media all and(min-width: 480px){ 
     .out{
         animation: out 0.3s;
         animation-iteration-count: 1;
@@ -655,9 +656,11 @@ body{	font-family: "Roboto";}
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
     }
+
 @keyframes out{
     0%{
         background-color: orange;
+        color: #1E2124;
     }
     100%{
         
@@ -669,5 +672,7 @@ body{	font-family: "Roboto";}
     }
     100%{
         background-color: orange;
+        color: #1E2124;
     }
+}
 }

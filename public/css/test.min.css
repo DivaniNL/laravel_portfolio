@@ -700,3 +700,42 @@ a {
   }
 }
 
+.mail-me {
+  align-items: center;
+  display: flex;
+  font-weight: 800;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media all and (min-width: 480px) {
+  .mail-me:hover {
+    -webkit-animation: mail-link 1s;
+            animation: mail-link 1s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+
+@-webkit-keyframes mail-link {
+    0% {
+      color: white;
+    }
+
+    100% {
+      color: orange;
+    }
+}
+
+@keyframes mail-link {
+    0% {
+      color: white;
+    }
+
+    100% {
+      color: orange;
+    }
+}
+}
+

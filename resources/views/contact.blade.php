@@ -117,9 +117,9 @@ content="This is the personal Portfolio-website of Divani-Developments">
 			<h1>Contact Me</h1>
 			
 			<h3>If you want to get in touch with me, use the icons down below or contact me by email.</h3>
-			<a href="mailto:divani-development@gmail.com"><div class="flex row">
+			<a href="mailto:divani.development@gmail.com"><div class="flex row mail-me">
 					<div>Email:&nbsp;&nbsp;</div>
-					<div>divani-development@gmail.com</div>
+					<div>divani.development@gmail.com</div>
 
 			</div></a>
 
