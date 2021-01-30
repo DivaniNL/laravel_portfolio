@@ -681,7 +681,8 @@ html {
 .project_images {
   width: 100%;
   margin: 0 auto;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project_images li {
