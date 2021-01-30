@@ -733,7 +733,7 @@ html {
           animation-fill-mode: forwards;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 768px) {
   .project_images li {
     width: 90%;
     margin: 0 auto;
