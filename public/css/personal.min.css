@@ -695,6 +695,7 @@ html {
   display: inline-block;
   margin-left: 5%;
   margin-right: 2%;
+  height: 300px;
   -webkit-animation: project-hover2 0.5s;
           animation: project-hover2 0.5s;
   -webkit-animation-iteration-count: 1;
