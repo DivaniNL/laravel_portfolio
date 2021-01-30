@@ -117,18 +117,18 @@ content="This is the personal Portfolio-website of Divani-Developments">
 			<h1>Contact Me</h1>
 			
 			<h3>If you want to get in touch with me, use the icons down below or contact me by email.</h3>
-			<div class="flex row">
+			<a href="mailto:divani-development@gmail.com"><div class="flex row">
 					<div>Email:&nbsp;&nbsp;</div>
-					<div>dylanvannierop@gmail.com</div>
+					<div>divani-development@gmail.com</div>
 
-			</div>
+			</div></a>
 
 			
 			<div class="flex row">
 
-			<div id="box1" class="flex icon out" onmouseenter="ins('box1')" onmouseleave="outs('box1')" ><i class="fa fa-instagram"></i></div>
-			<div id="box2" class="flex icon out" onmouseenter="ins('box2')" onmouseleave="outs('box2')"><i class="fa fa-github"></i></div>
-			<div id="box3" class="flex icon out" onmouseenter="ins('box3')" onmouseleave="outs('box3')"><i class="fa fa-facebook"></i></div>
+			<a href="https://instagram.com/dylannierop/"><div id="box1" class="flex icon out" onmouseenter="ins('box1')" onmouseleave="outs('box1')" ><i class="fa fa-instagram"></i></div></a>
+			<a href="https://github.com/DivaniNL/"><div id="box2" class="flex icon out" onmouseenter="ins('box2')" onmouseleave="outs('box2')"><i class="fa fa-github"></i></div>
+			<a href="https://www.linkedin.com/in/dylan-van-nierop-50458a1b8/"><div id="box3" class="flex icon out" onmouseenter="ins('box3')" onmouseleave="outs('box3')"><i class="fa fa-linkedin"></i></div></a>
 			</div>
 
 
