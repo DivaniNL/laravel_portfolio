@@ -37,7 +37,7 @@ content="This is the personal Portfolio-website of Divani-Developments">
 				
 		<section class="channels-list">
 			<header class="channels-list-header focusable">
-				<h5>Text Channels</h5>
+				<h1>Text Channels</h1>
 			</header>
 			
 			<ul class="channels-list-text" id="texts">
@@ -65,7 +65,7 @@ content="This is the personal Portfolio-website of Divani-Developments">
 			</ul>
 			
 			<header class="channels-list-header header-voice focusable">
-				<h5>Voice Channels</h5>
+				<h1>Voice Channels</h1>
             </header>
 
             <ul class="channels-list-voice" id="voices">

@@ -34,7 +34,7 @@ maximum-scale=1.0, user-scalable=no" />
 				
 		<section class="channels-list">
 			<header class="channels-list-header focusable">
-				<h5>Text Channels</h5>
+				<h1>Text Channels</h1>
 			</header>
 			
 			<ul class="channels-list-text" id="texts">
@@ -62,7 +62,7 @@ maximum-scale=1.0, user-scalable=no" />
 			</ul>
 			
 			<header class="channels-list-header header-voice focusable">
-				<h5>Voice Channels</h5>
+				<h1>Voice Channels</h1>
             </header>
 
             <ul class="channels-list-voice" id="voices">
@@ -106,13 +106,13 @@ maximum-scale=1.0, user-scalable=no" />
 		
 	<div class="vert-container">
 		<div class="menu">
-			<h2 class="menu-name">about</h2>
+			<h1 class="menu-name">about</h1>
 	</div>
 		<section class="chat">
 			<div class="content5">
 				<img id="profile" src="{{url('/img/profile.jpg')}}">  
 				<h1>About Me</h1>
-				<h3>My name is Dylan van Nierop, a <!--20 years--> 20 years old Dutch guy.</h3>
+				<h2>My name is Dylan van Nierop, a <!--20 years--> 20 years old Dutch guy.</h3>
 				<p>After graduating from High School I had a leap year. 
 				This happened because I wanted to become a physical therapist in the first place, but after three months, 
 				I decided to drop out because I lost interest in the job.
@@ -134,50 +134,50 @@ maximum-scale=1.0, user-scalable=no" />
 				<div class='skill_item'>
 					<h2 class='skill_title'>HTML</h2>	
 					<div class="progress">
-  						<div class="progress-value html"><h4>90%</h4></div>
+  						<div class="progress-value html"><span>90%</span></div>
 					</div>
 				</div>
 				
 				<div class='skill_item'>
 					<h2 class='skill_title'>CSS</h2>	
 					<div class="progress">
-  						<div class="progress-value css"><h4>90%</h4></div>
+  						<div class="progress-value css"><span>90%</span></div>
 					</div>
 				</div>
 				<div class='skill_item'>
 					<h2 class='skill_title'>SASS</h2>	
 					<div class="progress">
-  						<div class="progress-value sass"><h4>80%</h4></div>
+  						<div class="progress-value sass"><span>80%</span></div>
 					</div>
 				</div>
 				<div class='skill_item'>
 					<h2 class='skill_title'>Javascript</h2>	
 					<div class="progress">
-  						<div class="progress-value javascript"><h4>80%</h4></div>
+  						<div class="progress-value javascript"><span>80%</span></div>
 					</div>
 				</div>
 				<div class='skill_item'>
 					<h2 class='skill_title'>PHP</h2>	
 					<div class="progress">
-  						<div class="progress-value php"><h4>75%</h4></div>
+  						<div class="progress-value php"><span>75%</span></div>
 					</div>
 				</div>
 				<div class='skill_item'>
 					<h2 class='skill_title'>JQuery</h2>	
 					<div class="progress">
-  						<div class="progress-value jquery"><h4>60%</h4></div>
+  						<div class="progress-value jquery"><span>60%</span></div>
 					</div>
 				</div>
 				<div class='skill_item'>
 					<h2 class='skill_title'>React</h2>	
 					<div class="progress">
-  						<div class="progress-value react"><h4>30%</h4></div>
+  						<div class="progress-value react"><span>30%</span></div>
 					</div>
 				</div>
 				<div class='skill_item'>
 					<h2 class='skill_title'>Laravel</h2>	
 					<div class="progress">
-  						<div class="progress-value laravel"><h4>30%</h4></div>
+  						<div class="progress-value laravel"><span>30%</span></div>
 					</div>
 				</div>
 

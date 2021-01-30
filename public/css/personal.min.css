@@ -242,8 +242,9 @@ body {
   position: relative;
 }
 
-.channels .channels-list .channels-list-header h5 {
+.channels .channels-list .channels-list-header h1 {
   float: left;
+  font-size: 0.87em;
 }
 
 .channels .channels-list .channels-list-header i {
@@ -1185,7 +1186,7 @@ body {
   text-align: end;
 }
 
-.vert-container .chat .content5 .skills .skill_item .progress .progress-value h4 {
+.vert-container .chat .content5 .skills .skill_item .progress .progress-value span {
   padding-right: 15px;
 }
 

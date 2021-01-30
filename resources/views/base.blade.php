@@ -3,7 +3,7 @@
 <head>
 <title>Admin - Divani-Developments</title>
 <link rel="icon" type="image/png" href="{{url('/img/divani.png')}}">
-<link href="{{url('/css/app.css')}}" rel="stylesheet"/>
+<link href="{{url('/css/app.min.css')}}" rel="stylesheet"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" 
 content="This is the admin page of the personal Portfolio-website of Divani-Developments">

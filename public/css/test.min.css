@@ -240,8 +240,9 @@ body {
   position: relative;
 }
 
-.channels .channels-list .channels-list-header h5 {
+.channels .channels-list .channels-list-header h1 {
   float: left;
+  font-size: 0.87em;
 }
 
 .channels .channels-list .channels-list-header i {
