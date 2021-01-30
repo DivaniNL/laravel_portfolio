@@ -5,7 +5,7 @@
 	<link href="{{url('/css/test.min.css')}}" rel="stylesheet"/>    
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" 
-content="This is the personal Portfolio-website of Divani-Development">
+content="This is the personal Portfolio-website of Divani Development">
 	<link href="{{url('/css/personal.min.css')}}" rel="stylesheet"/>   
 	<link rel="icon" type="image/png" href="{{url('/img/divani.png')}}"> 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css" integrity="sha512-shT5e46zNSD6lt4dlJHb+7LoUko9QZXTGlmWWx0qjI9UhQrElRb+Q5DM7SVte9G9ZNmovz2qIaV7IWv0xQkBkw==" crossorigin="anonymous" />
@@ -30,7 +30,7 @@ content="This is the personal Portfolio-website of Divani-Development">
 	
 	<aside class="channels" id="channels">
 	<header id="hamburgerMenu" class="channels-header focusable">
-			<h3 class="channels-header-name">Divani-Development</h3>
+			<h3 class="channels-header-name">Divani Development</h3>
 			<svg aria-label="Dropdown" class="channels-header-dropdown"><use xlink:href="#icon-dropdown" /></svg>
 		</header>
 				
@@ -140,7 +140,7 @@ content="This is the personal Portfolio-website of Divani-Development">
 	</div>
 </main>
 <div class="viewer-footer">
-<p>Copyright &copy; 2020 - <?php echo date('Y')?> Divani-Development</p>
+<p>Copyright &copy; 2020 - <?php echo date('Y')?> Divani Development</p>
 </div>
 
 <!-- ICONS -->

@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,
 maximum-scale=1.0, user-scalable=no" />
 <meta name="description" 
-content="This is the personal Portfolio-website of Divani-Development">
+content="This is the personal Portfolio-website of Divani Development">
 	<link rel="icon" type="image/png" href="{{url('/img/divani.png')}}">  
 	<title>About me</title>
 </head>
@@ -31,7 +31,7 @@ content="This is the personal Portfolio-website of Divani-Development">
 	
 	<aside class="channels" id="channels">
 		<header id="hamburgerMenu" class="channels-header focusable">
-			<h3 class="channels-header-name">Divani-Development</h3>
+			<h3 class="channels-header-name">Divani Development</h3>
 			<svg aria-label="Dropdown" class="channels-header-dropdown"><use xlink:href="#icon-dropdown" /></svg>
 		</header>
 				
@@ -193,7 +193,7 @@ content="This is the personal Portfolio-website of Divani-Development">
 	</div>
 </main>
 <div class="viewer-footer">
-    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Divani-Development</p>
+    <p>Copyright &copy; 2020 - <?php echo date('Y')?> Divani Development</p>
 </div>
 
 <!-- ICONS -->
