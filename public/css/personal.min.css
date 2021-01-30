@@ -255,12 +255,6 @@ body {
   opacity: 1;
 }
 
-@media all and (max-width: 769px) {
-  .channels .channels-list {
-    height: 250px;
-  }
-}
-
 .channels .channels-footer {
   display: flex;
   align-items: center;
