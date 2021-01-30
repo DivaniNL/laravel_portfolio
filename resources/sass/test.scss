@@ -1,16 +1,10 @@
 
-// @import url("https://fonts.googleapis.com/css?family=Roboto:300,500,700");
-@font-face {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-display: swap;
-	src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format('woff2');
-  }
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,500,700");
   @font-face {
 	font-family: 'FontAwesome';
 	font-style: normal;
 	font-display: swap;
-	src: url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('woff2');
+	src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format('woff2');
   }
 $body-bg: #121416;
 $body-color: #FFF;

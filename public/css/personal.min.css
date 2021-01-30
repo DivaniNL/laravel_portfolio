@@ -1,17 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
-
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format("woff2");
-}
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,500,700);@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);@charset "UTF-8";
 
 @font-face {
   font-family: "FontAwesome";
   font-style: normal;
   font-display: swap;
-  src: url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("woff2");
+  src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("woff2");
 }
 
 * {
@@ -671,9 +664,11 @@ a {
 
 @font-face {
   font-family: "FontAwesome";
+  src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/font/fontawesome-webfont.eot?v=3.0.1");
+  src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/font/fontawesome-webfont.eot?#iefix&v=3.0.1") format("embedded-opentype"), url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/font/fontawesome-webfont.woff?v=3.0.1") format("woff"), url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/font/fontawesome-webfont.ttf?v=3.0.1") format("truetype");
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("woff2");
 }
 
 *,
@@ -782,6 +777,10 @@ html {
   width: 60%;
   margin: 0 auto;
   text-align: center;
+}
+
+body {
+  font-family: "Roboto";
 }
 
 .admin-container {

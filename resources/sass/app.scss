@@ -1,16 +1,20 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
 @import 'variables';
 @import 'test';
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,500,700");
 // Bootstrap
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 @font-face {
-	font-family: 'FontAwesome';
-	font-style: normal;
-	font-display: swap;
-	src: url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('woff2');
+    font-family: 'FontAwesome';
+    src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/font/fontawesome-webfont.eot?v=3.0.1');
+    src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/font/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+      url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/font/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+      url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/font/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
   }
 *, html {padding:0; margin:0;}
 .project_images{
@@ -113,7 +117,7 @@
      }
 }
 
-
+body{	font-family: "Roboto";}
 
 ///admin
 
