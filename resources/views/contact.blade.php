@@ -116,12 +116,8 @@
 			
 			<h3>If you want to get in touch with me, use the icons down below or contact me by email.</h3>
 			<div class="flex row">
-			<table>
-				<tr>
-					<td>Email:&nbsp;&nbsp;</td>
-					<td>dylanvannierop@gmail.com</td>
-				</tr>
-			</table>
+					<div>Email:&nbsp;&nbsp;</div>
+					<div>dylanvannierop@gmail.com</div>
 			</div>
 
 			
