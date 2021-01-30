@@ -115,7 +115,7 @@ content="This is the personal Portfolio-website of Divani-Development">
 			<div class="content5">
 				<img id="profile" src="{{url('/img/profile.jpg')}}">  
 				<h1>About Me</h1>
-				<h2>My name is Dylan van Nierop, a <!--20 years--> 20 years old Dutch guy.</h3>
+				<h2>My name is Dylan van Nierop, a <!--20 years--> 20 year old Dutch guy.</h3>
 				<p>After graduating from High School I had a leap year. 
 				This happened because I wanted to become a physical therapist in the first place, but after three months, 
 				I decided to drop out because I lost interest in the job.

@@ -116,7 +116,7 @@ content="This is the personal Portfolio-website of Divani-Development">
 			
 			<h1>Webdeveloper</h1>
 			
-			<h3>Hi! I am Dylan, a mostly Front-end focussed webdeveloper from the Netherlands.</h3>
+			<h3>Hi! I am Dylan, a mostly Front-end focused webdeveloper from the Netherlands.</h3>
 			
 			<p>I made this website during my education at the Graphic Lyceum Utrecht.</p>
 			
