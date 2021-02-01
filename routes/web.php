@@ -20,8 +20,8 @@ Route::post('/contact/{name?}', 'App\Http\Controllers\ContactController@ContactR
 Route::get('/about', function () {
     return view('about');
 });
-Route::get('/dashboard', function () {
-    return view('dashboard');
+Route::get('/projects', function () {
+    return view('projects');
 });
 Route::get('/home', function () {
     return view('home');
@@ -43,7 +43,7 @@ Route::get('/users/index', [
     
 Route::resource('werken', 'App\Http\Controllers\WerkController');
 Route::resource('users', 'App\Http\Controllers\AuthController');
-Route::resource('dashboard', 'App\Http\Controllers\TestController');
+Route::resource('projects', 'App\Http\Controllers\TestController');
 
 Route::get('/', function () {
     return redirect('home');

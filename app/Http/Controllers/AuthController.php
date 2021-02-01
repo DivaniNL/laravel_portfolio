@@ -80,7 +80,7 @@ class AuthController extends Controller
         
     }
 
-    public function dashboard()
+    public function projects()
     {
         if(Auth::check()){
             return view('werken');

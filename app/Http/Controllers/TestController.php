@@ -18,7 +18,7 @@ class TestController extends Controller
     public function index()
     {
         $werken = Werk::orderBy('created_at', 'desc')->get();
-        return view('dashboard', compact('werken'));
+        return view('projects', compact('werken'));
         
 
     }

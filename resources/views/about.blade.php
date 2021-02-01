@@ -48,7 +48,7 @@ content="This is the personal Portfolio-website of Divani Development">
 				</li>
 				
 				<li class="channel focusable channel-text">
-					<a href="/dashboard"><span class="channel-name">projects</span></a>
+					<a href="/projects"><span class="channel-name">projects</span></a>
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
             </li>
@@ -76,7 +76,7 @@ content="This is the personal Portfolio-website of Divani Development">
 				</li>
 				
 				<li class="channel focusable channel-text">
-					<a href="/dashboard"><span class="channel-name">projects</span></a>
+					<a href="/projects"><span class="channel-name">projects</span></a>
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
             </li>

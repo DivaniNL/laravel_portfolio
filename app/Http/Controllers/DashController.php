@@ -15,7 +15,7 @@ class DashController extends Controller
     {
 
         $werken = Werk::all();
-        return view('dashboard', compact('werken'));
+        return view('projects', compact('werken'));
     }
     
     /**

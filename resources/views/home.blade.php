@@ -47,7 +47,7 @@ content="This is the personal Portfolio-website of Divani Development">
 				</li>
 				
 				<li class="channel focusable channel-text">
-				<a href="/dashboard"><span class="channel-name">projects</span></a>
+				<a href="/projects"><span class="channel-name">projects</span></a>
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
@@ -75,7 +75,7 @@ content="This is the personal Portfolio-website of Divani Development">
 				</li>
 				
 				<li class="channel focusable channel-text">
-				<a href="/dashboard"><span class="channel-name">projects</span></a>
+				<a href="/projects"><span class="channel-name">projects</span></a>
 					<button class="button" aria-label="Invite"><svg><use xlink:href="#icon-invite" /></svg></button>
 					<button class="button" aria-label="settings"><svg><use xlink:href="#icon-channel-settings" /></svg></button>
 				</li>
@@ -121,7 +121,7 @@ content="This is the personal Portfolio-website of Divani Development">
 			<p>I made this website during my education at the Graphic Lyceum Utrecht.</p>
 			
 			<p>Feel free to look around on this website for more information about myself and the projects I've done or taken part of.</p>
-			<form style="display: inline" action="/dashboard" method="get">
+			<form style="display: inline" action="/projects" method="get">
 			<button class="buttoneffect"><span>View my work </span></button>
 			</form>
 			
