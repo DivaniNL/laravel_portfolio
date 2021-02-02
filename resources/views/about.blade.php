@@ -18,7 +18,7 @@ maximum-scale=1.0, user-scalable=no" />
 <meta name="description" 
 content="This is the personal Portfolio-website of Divani Development">
 	<link rel="icon" type="image/png" href="{{url('/img/divani.png')}}">  
-	<title>About me</title>
+	<title>About</title>
 </head>
     <body>
 
