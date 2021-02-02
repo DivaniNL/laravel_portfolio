@@ -390,9 +390,23 @@ html, body
       flex-direction: row;
 	}
 	@media all and (max-width: 769px){
-		.servers{
+		.servers {
+			align-items: center;
+			justify-content: center;
+		.not-home{
 			display: none;
 		}
+		.home{
+
+
+			.server-friends{
+				a{
+					margin-right: inherit !important;
+					text-align: center;
+				}
+			}
+		}
+	}
 	}
     .server{
         position: inherit !important;
@@ -404,7 +418,6 @@ html, body
     // }
     .servers-collection, .server-icon {
       margin-bottom: 0;
-      margin-right: 0.5rem;
     }
     .channels-footer{
         display: none !important;

@@ -23,13 +23,13 @@ content="This is the personal Portfolio-website of Divani Development">
     <body>
 <main class="container2">
 	<aside class="servers">
-	<div class="servers-collection">
+	<div class="servers-collection home">
 			<div class="server focusable server-friends unread" role="button" aria-label="Friends unread">
 				<div class="server-icon"><img src="{{url('/img/divani.png')}}"></div>
 			</div>
 		</div>
 		
-		<div class="servers-collection">
+		<div class="servers-collection not-home">
 			<div class="server focusable active" role="button" aria-label="My Server">
 				<div class="server-icon"><img src="https://discordapp.com/assets/0e291f67c9274a1abdddeb3fd919cbaa.png" alt="discord_image" /></div>
 			</div>

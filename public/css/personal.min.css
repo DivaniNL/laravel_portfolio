@@ -372,7 +372,17 @@ body {
 
 @media screen and (max-width: 769px) and (max-width: 769px) {
   .servers {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .servers .not-home {
     display: none;
+  }
+
+  .servers .home .server-friends a {
+    margin-right: inherit !important;
+    text-align: center;
   }
 }
 
@@ -387,7 +397,6 @@ body {
   .servers-collection,
   .server-icon {
     margin-bottom: 0;
-    margin-right: 0.5rem;
   }
 }
 
