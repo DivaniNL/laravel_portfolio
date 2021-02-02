@@ -21,7 +21,7 @@
               <ul class="sub-menu collapse" id="projects">
               <li><a href="/">Home</a></li>
                 <li><a href="/projects">Projects</a></li>
-                <li><a href="/about">Contact</a></li>
+                <li><a href="/about">About</a></li>
                 <li><a href="/contact">Contact</a></li>
               </ul>
             </li>
