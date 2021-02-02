@@ -1,14 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-    <link href="{{url('/css/test.min.css')}}" rel="stylesheet"/>    
-	<link href="{{url('/css/personal.min.css')}}" rel="stylesheet"/> 
-	<link rel="icon" type="image/png" href="{{url('/img/divani.png')}}">
-	<meta name="description" 
-content="This is the personal Portfolio-website of Divani Development">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+			<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWGMSG6K8G"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -17,6 +10,14 @@ content="This is the personal Portfolio-website of Divani Development">
 
   gtag('config', 'G-ZWGMSG6K8G');
 </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <link href="{{url('/css/test.min.css')}}" rel="stylesheet"/>    
+	<link href="{{url('/css/personal.min.css')}}" rel="stylesheet"/> 
+	<link rel="icon" type="image/png" href="{{url('/img/divani.png')}}">
+	<meta name="description" 
+content="This is the personal Portfolio-website of Divani Development">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 
 	<title>Some of my Work</title>
 </head>
