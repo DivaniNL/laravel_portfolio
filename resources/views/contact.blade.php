@@ -18,7 +18,7 @@ content="This is the personal Portfolio-website of Divani Development">
 	<link href="{{url('/css/personal.min.css')}}" rel="stylesheet"/>   
 	<link rel="icon" type="image/png" href="{{url('/img/divani.png')}}"> 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css" integrity="sha512-shT5e46zNSD6lt4dlJHb+7LoUko9QZXTGlmWWx0qjI9UhQrElRb+Q5DM7SVte9G9ZNmovz2qIaV7IWv0xQkBkw==" crossorigin="anonymous" />
-	<title>Contact Me</title>
+	<title>Get in Touch</title>
 </head>
     <body>
 <main class="container2">
