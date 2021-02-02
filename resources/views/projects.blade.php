@@ -26,7 +26,7 @@ content="This is the personal Portfolio-website of Divani Development">
 	<aside class="servers">
 		<div class="servers-collection">
 			<div class="server focusable server-friends unread" role="button" aria-label="Friends unread">
-				<div class="server-icon"><svg><use xlink:href="#icon-friends" /></svg></div>
+				<a  class="server-icon " href="/home"><div class="server-icon"><img src="{{url('/img/divani.png')}}"></div></a>
 			</div>
 		</div>
 
