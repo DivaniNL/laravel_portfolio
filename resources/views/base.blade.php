@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-08D3R47MKX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-08D3R47MKX');
+</script>
 <title>Admin - Divani Development</title>
 <link rel="icon" type="image/png" href="{{url('/img/divani.png')}}">
 <link href="{{url('/css/app.min.css')}}" rel="stylesheet"/>
