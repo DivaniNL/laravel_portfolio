@@ -52,6 +52,7 @@ Route::get('/', function () {
 Route::get('/registration', function () {
     return view('registration');
 });
+
 Route::get('users','App\Http\Controllers\AuthController@view');
 Route::get('login', 'App\Http\Controllers\AuthController@index');
 Route::post('post-login', 'App\Http\Controllers\AuthController@postLogin');
