@@ -63,7 +63,7 @@
                     <td>{{$werk->created_at->format('d.m.Y')}}</td>
                     <td>{{$werk->url}}</td> 
                     <td>{{$werk->file}}</td> 
-                    <td><a href="{{ route('werken.edit'$werk->id)}}" class="btn btn-lg btn-warning">Edit</a></td> 
+                    <td><a href="{{ route('werken.edit', $werk->id)}}" class="btn btn-lg btn-warning">Edit</a></td> 
                     <td>
                         <form action="{{ route('werken.destroy', $werk->id)}}" method="post">
                             @csrf
