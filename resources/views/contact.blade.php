@@ -123,7 +123,7 @@ content="This is the personal Portfolio-website of Divani Development">
 		<section class="chat">
 			<div class="content2">
 			
-			<h1>Contact My ass</h1>
+			<h1>Contact Me</h1>
 			
 			<h3>If you want to get in touch with me, use the icons down below or contact me by email.</h3>
 			<a href="mailto:divani.development@gmail.com"><div class="flex row mail-me">
