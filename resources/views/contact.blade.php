@@ -135,9 +135,9 @@ content="This is the personal Portfolio-website of Divani Development">
 			
 			<div class="flex row">
 
-			<a href="https://instagram.com/dylannierop/"><div id="box1" class="flex icon out" onmouseenter="ins('box1')" onmouseleave="outs('box1')" ><i class="fa fa-instagram"></i></div></a>
-			<a href="https://github.com/DivaniNL/"><div id="box2" class="flex icon out" onmouseenter="ins('box2')" onmouseleave="outs('box2')"><i class="fa fa-github"></i></div>
-			<a href="https://www.linkedin.com/in/dylan-van-nierop-50458a1b8/"><div id="box3" class="flex icon out" onmouseenter="ins('box3')" onmouseleave="outs('box3')"><i class="fa fa-linkedin"></i></div></a>
+			<a target="_blank" href="https://instagram.com/dylannierop/"><div id="box1" class="flex icon out" onmouseenter="ins('box1')" onmouseleave="outs('box1')" ><i class="fa fa-instagram"></i></div></a>
+			<a target="_blank" href="https://github.com/DivaniNL/"><div id="box2" class="flex icon out" onmouseenter="ins('box2')" onmouseleave="outs('box2')"><i class="fa fa-github"></i></div>
+			<a target="_blank" href="https://www.linkedin.com/in/dylan-van-nierop-50458a1b8/"><div id="box3" class="flex icon out" onmouseenter="ins('box3')" onmouseleave="outs('box3')"><i class="fa fa-linkedin"></i></div></a>
 			</div>
 
 
