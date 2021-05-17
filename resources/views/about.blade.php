@@ -17,7 +17,7 @@
 maximum-scale=1.0, user-scalable=no" />
 <meta name="description" 
 content="This is the personal Portfolio-website of Divani Development">
-	<link rel="icon" type="image/png" href="{{url('/img/divani.png')}}">  
+	<link rel="icon" type="image/png" href="{{url('/img/fp.jpg')}}">  
 	<title>About</title>
 </head>
     <body>
@@ -26,7 +26,7 @@ content="This is the personal Portfolio-website of Divani Development">
 	<aside class="servers">
 	<div class="servers-collection home">
 			<div class="server focusable server-friends unread" role="button" aria-label="Friends unread">
-				<a  class="server-icon " href="/home"><div class="server-icon"><img src="{{url('/img/divani.png')}}"></div></a>
+				<a  class="server-icon " href="/home"><div class="server-icon"><img src="{{url('/img/fp.jpg')}}"></div></a>
 			</div>
 		</div>
 
