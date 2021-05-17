@@ -22,7 +22,11 @@ class TestController extends Controller
         
 
     }
-    
+    public function desc($id)
+    {
+        $werk = Werk::find($id);
+        return view('/description', compact('werk'));
+    }
     /**
      * Show the form for creating a new resource.
      *

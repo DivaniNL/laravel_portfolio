@@ -23,6 +23,7 @@ Route::get('/about', function () {
 Route::get('/projects', function () {
     return view('projects');
 });
+
 Route::get('/home', function () {
     return view('home');
 });
@@ -52,7 +53,6 @@ Route::get('/', function () {
 Route::get('/registration', function () {
     return view('registration');
 });
-
 Route::get('users','App\Http\Controllers\AuthController@view');
 Route::get('login', 'App\Http\Controllers\AuthController@index');
 Route::post('post-login', 'App\Http\Controllers\AuthController@postLogin');
