@@ -131,7 +131,6 @@ content="This is the personal Portfolio-website of Divani Development">
         	    		<img class = "image_project" src="{{ asset('storage/images/'.$werk->file) }}" alt="Image"/>
 						<h2>{{$werk->description}}</h2>
 					</a> 
-					<a href="{{ route('werken.edit', $werk->id)}}" class="btn btn-lg btn-warning">Edit</a>
 					
        			</li>
         	@endforeach
