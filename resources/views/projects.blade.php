@@ -122,7 +122,7 @@ content="This is the personal Portfolio-website of Divani Development">
 </div>
 		
 		<section class="chat projectpage projectschat">
-			<h1 class="centeredh1"> Some of my work </h1>
+			<h1 class="centeredh1"> Some of my works </h1>
         	<ul class="project_images">
         	@foreach($werken as $werk) 
         		<li>
