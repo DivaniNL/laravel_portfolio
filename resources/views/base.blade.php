@@ -11,7 +11,7 @@
   gtag('config', 'G-08D3R47MKX');
 </script>
 <title>Admin - Divani Development</title>
-<link rel="icon" type="image/png" href="{{url('/img/fp.jpg')}}">
+<link rel="icon" type="image/png" href="{{url('/img/divani.png')}}">
 <link href="{{url('/css/app.min.css')}}" rel="stylesheet"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" 

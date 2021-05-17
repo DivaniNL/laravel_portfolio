@@ -17,7 +17,7 @@
 maximum-scale=1.0, user-scalable=no" />
 <meta name="description" 
 content="This is the personal Portfolio-website of Divani Development">
-	<link rel="icon" type="image/png" href="{{url('/img/fp.jpg')}}">  
+	<link rel="icon" type="image/png" href="{{url('/img/divani.png')}}">  
 	<title>About</title>
 </head>
     <body>
@@ -26,7 +26,7 @@ content="This is the personal Portfolio-website of Divani Development">
 	<aside class="servers">
 	<div class="servers-collection home">
 			<div class="server focusable server-friends unread" role="button" aria-label="Friends unread">
-				<a  class="server-icon " href="/home"><div class="server-icon"><img src="{{url('/img/fp.jpg')}}"></div></a>
+				<a  class="server-icon " href="/home"><div class="server-icon"><img src="{{url('/img/divani.png')}}"></div></a>
 			</div>
 		</div>
 
@@ -122,7 +122,7 @@ content="This is the personal Portfolio-website of Divani Development">
 	</div>
 		<section class="chat">
 			<div class="content5">
-				<img id="profile" src="{{url('/img/profile.jpg')}}">  
+				<img id="profile" src="{{url('/img/pf.jpg')}}">  
 				<h1>About Me</h1>
 				<h2>My name is Dylan van Nierop, a <!--20 years--> 20 year old Dutch guy.</h3>
 				<p>After graduating from High School I had a leap year. 
